@@ -1,0 +1,27 @@
+name: Validasi sintaks JSON dataset
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # Referensi: https://github.com/actions/checkout
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      # Referensi: https://github.com/actions/setup-python
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      # Validasi schema dan tes algoritma ditambahkan saat source code diunggah.
+      - name: Validasi sintaks JSON dataset utama
+        run: python -m json.tool data/data.json > /dev/null
+      - name: Validasi sintaks JSON dataset mini
+        run: python -m json.tool data/mini_data.json > /dev/null
