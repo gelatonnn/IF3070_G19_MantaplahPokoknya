@@ -1,0 +1,1 @@
+﻿"""Algoritma pencarian (Genetic Algorithm)."""
