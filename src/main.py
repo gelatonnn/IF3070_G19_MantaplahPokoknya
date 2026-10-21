@@ -77,11 +77,17 @@ def main(argv=None):
                         help="sa: berhenti kalo T <= t-min")
     parser.add_argument("--stuck-window", type=_positive_int, default=1000,
                         help="sa: berapa iterasi tanpa perbaikan baru diitung 1x stuck")
+    #bonus 1: objective alternatif, cuma buat sa
+    parser.add_argument("--objective", choices=["fee", "eta"], default="fee",
+                        help="sa: fee = objective biasa, eta = fee dikali bobot urgensi (bonus 1)")
     parser.add_argument("--output", type=Path, default=ROOT / "output/hill_climbing")
     parser.add_argument("--no-plots", action="store_true", help="Hanya simpan JSON dan CSV.")
     args = parser.parse_args(argv)
     if not 0 <= args.load_probability <= 1:
         parser.error("--load-probability harus antara 0 dan 1")
+    #hc pake delta score dari evaluate() biasa, jadi objective eta cuma bisa di sa
+    if args.objective == "eta" and args.algorithm != "simulated_annealing":
+        parser.error("--objective eta cuma bisa dipake bareng --algorithm simulated_annealing")
     if len(set(args.seeds)) != len(args.seeds):
         parser.error("--seeds harus unik")
     if args.output.exists() and any(args.output.iterdir()):
@@ -109,7 +115,8 @@ def main(argv=None):
             elif name == "simulated_annealing":
                 #sa ga pake max_iterations, berhentinya dari suhu
                 kwargs = {"seed": seed, "t0": args.t0, "alpha": args.alpha,
-                          "t_min": args.t_min, "stuck_window": args.stuck_window}
+                          "t_min": args.t_min, "stuck_window": args.stuck_window,
+                          "objective": args.objective}
             print(f"Mulai {name}, seed={seed}, kendaraan={len(vehicles)}", flush=True)
             result = ALGORITHMS[name](initial, vehicles, ship, **kwargs)
             #trace sa isinya data tiap iterasi (bisa 69rb titik), cuma dipake buat plot
@@ -136,7 +143,11 @@ def main(argv=None):
                     save_plots(result, vehicles, ship, folder)
             metrics = result["final_metrics"]
             rows.append({
-                "algorithm": name, "seed": seed, "score": metrics["score"],
+                "algorithm": name, "seed": seed,
+                "objective": result["parameters"].get("objective", "fee"),
+                "score": metrics["score"],
+                #nilai berbobot eta, kosong kalo objective-nya fee biasa
+                "weighted_revenue": metrics.get("weighted_revenue", ""),
                 "revenue": metrics["revenue"], "is_valid": metrics["is_valid"],
                 "iterations": result["iterations"],
                 "restarts": result.get("restarts", 0),
