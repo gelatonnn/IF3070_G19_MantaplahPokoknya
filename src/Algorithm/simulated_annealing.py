@@ -5,6 +5,7 @@ import random
 from time import perf_counter
 
 from ..Core.evaluation import evaluate
+from ..Core.evaluation_eta import evaluate_eta
 from ..Core.neighbors import random_neighbor
 from ..Core.state import copy_state, empty_state
 
@@ -24,21 +25,30 @@ def _point(iteration, temperature, metrics):
 
 def simulated_annealing(initial_state, vehicles, ship, *, seed=0,
                         t0=100.0, alpha=0.9999, t_min=0.1,
-                        stuck_window=1000, history_step=10):
+                        stuck_window=1000, history_step=10, objective="fee"):
     #stuck_window: brp iterasi tanpa perbaikan baru dianggep stuck 1x
     #history_step: history di json disimpen tiap n iterasi aja biar filenya ga gede
+    #objective="fee" -> evaluate() biasa (spek wajib)
+    #objective="eta" -> evaluate_eta(), fee dikali bobot urgensi (bonus 1)
+    if objective == "fee":
+        score_fn = evaluate
+    elif objective == "eta":
+        score_fn = evaluate_eta
+    else:
+        raise ValueError('objective harus "fee" atau "eta"')
+
     rng = random.Random(seed)
     started = perf_counter()
 
     current = copy_state(initial_state)
-    current_metrics = evaluate(current, vehicles, ship)
+    current_metrics = score_fn(current, vehicles, ship)
     initial_metrics = current_metrics
 
     #simpen state valid terbaik yg pernah dilewatin, soalnya sa bisa aja
     #nerima langkah jelek terus ga balik lagi ke state bagus tadi
     #defaultnya kapal kosong (score 0, pasti valid) biar slalu ada jawaban valid
     best_valid = empty_state(vehicles)
-    best_valid_metrics = evaluate(best_valid, vehicles, ship)
+    best_valid_metrics = score_fn(best_valid, vehicles, ship)
     best_valid_source = "empty_baseline"
     if current_metrics["is_valid"]:
         best_valid, best_valid_metrics = copy_state(current), current_metrics
@@ -68,7 +78,7 @@ def simulated_annealing(initial_state, vehicles, ship, *, seed=0,
         if neighbor is None:  #dataset tanpa kendaraan
             stop_reason = "no_neighbor"
             break
-        neighbor_metrics = evaluate(neighbor, vehicles, ship)
+        neighbor_metrics = score_fn(neighbor, vehicles, ship)
 
         #hitung delta E = score tetangga - score sekarang
         delta = neighbor_metrics["score"] - current_metrics["score"]
@@ -146,7 +156,8 @@ def simulated_annealing(initial_state, vehicles, ship, *, seed=0,
         "stop_reason": stop_reason,
         "duration_seconds": perf_counter() - started,
         "parameters": {"seed": seed, "t0": t0, "alpha": alpha, "t_min": t_min,
-                       "stuck_window": stuck_window, "history_step": history_step},
+                       "stuck_window": stuck_window, "history_step": history_step,
+                       "objective": objective},
         #data lengkap buat plot, nanti dibuang sama main.py sebelum nulis json
         "trace": {"scores": scores, "temperatures": temperatures,
                   "acceptance": acceptance},
