@@ -6,10 +6,10 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
-from src.Core.data_loader import load_data
-from src.Core.state import empty_state, random_state, validate_state, copy_state
-from src.Core.evaluation import evaluate
-from src.Core.neighbors import move, rotate, swap, iter_neighbors, random_neighbor
+from .data_loader import load_data
+from .state import empty_state, random_state, validate_state, copy_state
+from .evaluation import evaluate
+from .neighbors import move, rotate, swap, iter_neighbors, random_neighbor
 
 SHIP = {'w': 4, 'l': 6, 'max_capacity': 30}
 VEHICLES = {

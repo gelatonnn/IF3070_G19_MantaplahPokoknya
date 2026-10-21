@@ -1,0 +1,13 @@
+algorithm,seed,score,revenue,is_valid,iterations,restarts,sideways_moves,duration_seconds,stop_reason,final_source,evaluated_neighbors
+steepest,101,1333,1333,True,48,0,0,4.924706700025126,local_optimum,terminal,694866
+steepest,202,1503,1503,True,50,0,0,5.278387599973939,local_optimum,terminal,719380
+steepest,303,1415,1415,True,34,0,0,3.418504200002644,local_optimum,terminal,478550
+stochastic,101,1250,1250,True,168,0,0,18.493273900006898,local_optimum,terminal,2442199
+stochastic,202,1211,1211,True,194,0,0,20.953834899992216,local_optimum,terminal,2802532
+stochastic,303,1277,1277,True,136,0,0,13.759258700010832,local_optimum,terminal,1912687
+sideways,101,1333,1333,True,68,0,20,6.90069769998081,sideways_limit,terminal,958165
+sideways,202,1503,1503,True,70,0,20,7.163389099994674,sideways_limit,terminal,983892
+sideways,303,1455,1455,True,58,0,20,5.582147499982966,sideways_limit,terminal,788238
+random_restart,101,1333,1333,True,182,3,0,18.598563899984583,max_restarts,terminal,2624089
+random_restart,202,1503,1503,True,183,3,0,18.719569200009573,max_restarts,terminal,2615023
+random_restart,303,1415,1415,True,147,3,0,14.982094999984838,max_restarts,terminal,2092433

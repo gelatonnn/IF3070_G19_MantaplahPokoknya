@@ -5,10 +5,7 @@ Tumpang tindih menghitung kelebihan penumpang, BUKAN jumlah pasangan kendaraan y
 F = revenue - P * overlap - P * excess_weight; P = 1 + max(shipping_fee).
 Tumpang tindih menghitung kelebihan vehicle, BUKAN jumlah pasangan kendaraan yang tumpang tindih.
 """
-try:
-    from .state import footprint, validate_state
-except ImportError:
-    from state import footprint, validate_state
+from .state import footprint, validate_state
 
 
 def evaluate(state, vehicles, ship):

@@ -7,10 +7,7 @@ Operasi yang tidak valid akan memicu ValueError. Kondisi di luar area dinyatakan
 """
 import random
 from itertools import combinations
-try:
-    from .state import copy_state, validate_state, within_bounds, footprint
-except ImportError:
-    from state import copy_state, validate_state, within_bounds, footprint
+from .state import copy_state, validate_state, within_bounds, footprint
 
 
 def _place(state, vid, position, orientation, vehicles, ship):
