@@ -33,12 +33,13 @@ class ExperimentCLITests(unittest.TestCase):
             command = [
                 sys.executable, "-m", "src.main",
                 "--data", str(fixture), "--output", str(out),
-                "--seeds", "42", "--max-restarts", "1", "--max-sideways", "2", "--no-plots",
+                "--seeds", "42", "--max-restarts", "1", "--max-sideways", "2",
+                "--alpha", "0.99", "--no-plots",
             ]
             run = subprocess.run(command, cwd=ROOT, capture_output=True, text=True)
             self.assertEqual(run.returncode, 0, run.stderr)
             files = list(out.glob("*/seed_42/result.json"))
-            self.assertEqual(len(files), 4)
+            self.assertEqual(len(files), 5)  # 4 varian hc + sa
             ship, vehicles = load_data(fixture)
             digest = hashlib.sha256(fixture.read_bytes()).hexdigest()
             initials = []
