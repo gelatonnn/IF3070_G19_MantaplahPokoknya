@@ -41,7 +41,11 @@ pencarian, serta grafik perkembangan objective terhadap iterasi.
 │   ├── Algorithm/           implementasi HC, SA, dan GA
 │   ├── Core/                loader, state, objective, constraint, dan tetangga
 │   ├── Visualization/       ekspor visualisasi state dan riwayat objective
+│   ├── experiment.py        runner bersama untuk CLI dan Streamlit
+│   ├── ui_support.py        grafik interaktif dan ringkasan perbandingan
 │   └── main.py              CLI utama eksperimen
+├── streamlit_app.py          UI web local
+├── .streamlit/config.toml    tema warna antarmuka
 ├── requirements.txt
 └── README.md
 ```
@@ -105,6 +109,26 @@ python -m src.main --help
 
 Gunakan `--no-plots` jika hanya ingin menghasilkan JSON dan CSV. Objective yang
 tersedia adalah `shipping_fee` dan `eta_priority`.
+
+## 🖥️ Antarmuka Streamlit
+
+Jalankan dari folder utama proyek setelah memasang dependensi:
+
+```bash
+python -m streamlit run streamlit_app.py
+```
+
+Pilih **Eksperimen tunggal** untuk satu algoritma dan seed, atau **Perbandingan**
+untuk beberapa algoritma dan seed pada dataset, objective, dan konfigurasi kapal
+yang sama. Parameter khusus algoritma muncul segera setelah algoritma dipilih.
+Dataset kendaraan JSON dan konfigurasi armada JSON dapat diunggah; bila kosong,
+aplikasi memakai `data/data.json` dan `data/fleet.json`. Maksimum 30 eksekusi
+sekali jalan.
+
+Hasil menampilkan metrik, tabel per kapal, denah geladak dan riwayat optimasi
+interaktif (hover/zoom), serta grafik PNG asli. Unduh JSON/PNG individual,
+`summary.csv`, atau seluruh hasil sebagai ZIP. Eksekusi yang tersimpan dapat
+dibuka lagi dari sidebar.
 
 ## 📊 Output Program
 

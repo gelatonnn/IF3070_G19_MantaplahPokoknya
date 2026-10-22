@@ -26,7 +26,7 @@ def export_result(result, output_dir, dataset_name):
     suffix = ''
     counter = 1
     while any((out / f'{base}{suffix}{ext}').exists()
-              for ext in ('.csv', '.png', '_solution.png')):
+              for ext in ('.csv', '_initial.png', '_final.png', '_fitness.png')):
         suffix = f'_{counter}'
         counter += 1
     stem = f'{base}{suffix}'

@@ -16,3 +16,4 @@ htmlcov/
 Thumbs.db
 ~$*
 *.tmp
+output/ui_runs/

@@ -1,2 +1,4 @@
-# Algoritma dan tes menggunakan standard library. Paket ini untuk ekspor PNG.
+# Algoritma dan tes menggunakan standard library. Paket berikut untuk visualisasi dan UI.
 matplotlib==3.10.8
+streamlit>=1.64,<2
+plotly>=6,<7
