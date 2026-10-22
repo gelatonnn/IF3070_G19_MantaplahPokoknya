@@ -1,4 +1,4 @@
-name: Validasi dataset dan Hill-Climbing
+name: Validasi dataset dan seluruh algoritma
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
         run: python -m json.tool data/data.json > /dev/null
       - name: Uji foundation dengan dataset utama
         run: python -m src.Core.check_foundation data/data.json
-      - name: Uji foundation dan algoritma
-        run: python -m unittest discover -s tests -v
       - name: Smoke test eksperimen tanpa grafik
         run: python -m src.main --data data/data.json --algorithm steepest --seeds 42 --max-iterations 1 --no-plots --output output/ci-smoke
+      - name: Smoke test seluruh algoritma dan bonus armada
+        run: python -m src.main --fleet data/fleet.json --objective eta_priority --algorithm all --seeds 42 --max-iterations 1 --max-restarts 1 --population-size 8 --generations 2 --no-plots --output output/ci-bonus

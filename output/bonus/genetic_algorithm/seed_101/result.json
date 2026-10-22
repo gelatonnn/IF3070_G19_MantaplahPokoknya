@@ -1,0 +1,7264 @@
+{
+  "algorithm": "genetic_algorithm",
+  "parameters": {
+    "population_size": 100,
+    "generations": 300,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.5,
+    "tournament_size": 3,
+    "elite_count": 2,
+    "seed": 101,
+    "repair": false,
+    "objective": "eta_priority",
+    "load_probability": 0.5
+  },
+  "params": {
+    "population_size": 100,
+    "generations": 300,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.5,
+    "tournament_size": 3,
+    "elite_count": 2,
+    "seed": 101,
+    "repair": false,
+    "objective": "eta_priority",
+    "load_probability": 0.5
+  },
+  "initial_state": {
+    "V001": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V002": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V003": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V004": {
+      "position": [
+        5,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V005": {
+      "position": [
+        17,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V006": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V007": {
+      "position": [
+        7,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V008": {
+      "position": [
+        7,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V009": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V010": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V011": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V012": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V013": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V014": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V015": {
+      "position": [
+        10,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V016": {
+      "position": [
+        4,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V017": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V018": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V019": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V020": {
+      "position": [
+        11,
+        2
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V021": {
+      "position": [
+        4,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V022": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V023": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V024": {
+      "position": [
+        5,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V025": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V026": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V027": {
+      "position": [
+        9,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V028": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V029": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V030": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V031": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V032": {
+      "position": [
+        10,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V033": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V034": {
+      "position": [
+        5,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V035": {
+      "position": [
+        11,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V036": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V037": {
+      "position": [
+        8,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V038": {
+      "position": [
+        7,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V039": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V040": {
+      "position": [
+        9,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V041": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V042": {
+      "position": [
+        0,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V043": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V044": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V045": {
+      "position": [
+        15,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V046": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V047": {
+      "position": [
+        8,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V048": {
+      "position": [
+        1,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V049": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V050": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V051": {
+      "position": [
+        9,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V053": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V054": {
+      "position": [
+        10,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V055": {
+      "position": [
+        15,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V056": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V057": {
+      "position": [
+        10,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V058": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V059": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V060": {
+      "position": [
+        1,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V061": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V062": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V063": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V064": {
+      "position": [
+        13,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V065": {
+      "position": [
+        4,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V066": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V067": {
+      "position": [
+        5,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V068": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V069": {
+      "position": [
+        1,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V070": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V071": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V072": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V073": {
+      "position": [
+        7,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V075": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V076": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V078": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V079": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V080": {
+      "position": [
+        0,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V081": {
+      "position": [
+        7,
+        2
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V082": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V083": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V085": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V086": {
+      "position": [
+        9,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V087": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V088": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V089": {
+      "position": [
+        0,
+        2
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V090": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    }
+  },
+  "initial_metrics": {
+    "revenue": 2208,
+    "objective_value": 3514.9285714285,
+    "total_weight": 1165,
+    "loaded_count": 36,
+    "overlap": 168,
+    "excess_weight": 315,
+    "score": -181543.0714285715,
+    "objective": "eta_priority",
+    "penalty_coefficient": 383.1428571428571,
+    "is_valid": false,
+    "per_ship": {
+      "S1": {
+        "grid": [
+          [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            1,
+            3,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            1,
+            2,
+            2,
+            3,
+            1,
+            2,
+            4,
+            3,
+            2,
+            3,
+            1,
+            3,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            1,
+            3,
+            3,
+            2,
+            1,
+            2,
+            4,
+            3,
+            2,
+            3,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2,
+            1,
+            2,
+            3,
+            3,
+            1,
+            0,
+            1,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            2,
+            3,
+            3,
+            2,
+            1,
+            1,
+            2,
+            3,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "revenue": 1066,
+        "objective_value": 1635.3571428571,
+        "total_weight": 674,
+        "loaded_count": 21,
+        "max_capacity": 500,
+        "overlap": 73,
+        "excess_weight": 174,
+        "score": -93000.9285714286,
+        "is_valid": false
+      },
+      "S2": {
+        "grid": [
+          [
+            0,
+            1,
+            1,
+            2,
+            1,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            2,
+            1,
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            3,
+            5,
+            6,
+            5,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            2,
+            1,
+            2,
+            2,
+            2,
+            3,
+            5,
+            4,
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            3,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            3,
+            4,
+            2,
+            2,
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            2,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "revenue": 1142,
+        "objective_value": 1879.5714285714,
+        "total_weight": 491,
+        "loaded_count": 15,
+        "max_capacity": 350,
+        "overlap": 95,
+        "excess_weight": 141,
+        "score": -88542.1428571429,
+        "is_valid": false
+      }
+    }
+  },
+  "final_state": {
+    "V001": {
+      "position": [
+        7,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V002": {
+      "position": [
+        4,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V003": {
+      "position": [
+        12,
+        9
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V004": {
+      "position": [
+        12,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V005": {
+      "position": [
+        7,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V006": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V007": {
+      "position": [
+        7,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V008": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V009": {
+      "position": [
+        3,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V010": {
+      "position": [
+        8,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V011": {
+      "position": [
+        8,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V012": {
+      "position": [
+        13,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V013": {
+      "position": [
+        0,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V014": {
+      "position": [
+        10,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V015": {
+      "position": [
+        1,
+        7
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V016": {
+      "position": [
+        4,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V017": {
+      "position": [
+        13,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V018": {
+      "position": [
+        16,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V019": {
+      "position": [
+        2,
+        6
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V020": {
+      "position": [
+        8,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V021": {
+      "position": [
+        13,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V022": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V023": {
+      "position": [
+        5,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V024": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V025": {
+      "position": [
+        12,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V026": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V027": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V028": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V029": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V030": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V031": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V032": {
+      "position": [
+        0,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V033": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V034": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V035": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V036": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V037": {
+      "position": [
+        10,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V038": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V039": {
+      "position": [
+        5,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V040": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V041": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V042": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V043": {
+      "position": [
+        4,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V044": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V045": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V046": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V047": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V048": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V049": {
+      "position": [
+        17,
+        6
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V050": {
+      "position": [
+        17,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V051": {
+      "position": [
+        9,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V053": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V054": {
+      "position": [
+        4,
+        8
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V055": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V056": {
+      "position": [
+        14,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V057": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V058": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V059": {
+      "position": [
+        1,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V060": {
+      "position": [
+        1,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V061": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V062": {
+      "position": [
+        7,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V063": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V064": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V065": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V066": {
+      "position": [
+        9,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V067": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V068": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V069": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V070": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V071": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V072": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V073": {
+      "position": [
+        10,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V075": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V076": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V078": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V079": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V080": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V081": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V082": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V083": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V085": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V086": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V087": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V088": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V089": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V090": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    }
+  },
+  "final_metrics": {
+    "revenue": 1914,
+    "objective_value": 3157.0714285715,
+    "total_weight": 826,
+    "loaded_count": 37,
+    "overlap": 0,
+    "excess_weight": 0,
+    "score": 3157.0714285715,
+    "objective": "eta_priority",
+    "penalty_coefficient": 383.1428571428571,
+    "is_valid": true,
+    "per_ship": {
+      "S1": {
+        "grid": [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        ],
+        "revenue": 1169,
+        "objective_value": 1988.6428571429,
+        "total_weight": 495,
+        "loaded_count": 21,
+        "max_capacity": 500,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1988.6428571429,
+        "is_valid": true
+      },
+      "S2": {
+        "grid": [
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "revenue": 745,
+        "objective_value": 1168.4285714286,
+        "total_weight": 331,
+        "loaded_count": 16,
+        "max_capacity": 350,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1168.4285714286,
+        "is_valid": true
+      }
+    }
+  },
+  "final_source": "population",
+  "iterations": 300,
+  "generations_run": 300,
+  "evaluated_neighbors": 30100,
+  "stop_reason": "max_generations",
+  "duration_seconds": 37.861625999968965,
+  "history": [
+    {
+      "generation": 0,
+      "candidate_peak": -181543.0714285715,
+      "mean_fitness": -405759.76,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 1,
+      "candidate_peak": -139413.7857142857,
+      "mean_fitness": -314606.595,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 2,
+      "candidate_peak": -120260.4285714285,
+      "mean_fitness": -254305.05785714285,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 3,
+      "candidate_peak": -61904.5714285715,
+      "mean_fitness": -202987.58357142855,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 4,
+      "candidate_peak": -34678.0714285714,
+      "mean_fitness": -146985.56857142856,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 5,
+      "candidate_peak": -22548.2857142857,
+      "mean_fitness": -105136.95785714286,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 6,
+      "candidate_peak": -13060.3571428571,
+      "mean_fitness": -74759.54785714284,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 7,
+      "candidate_peak": -10933.8571428571,
+      "mean_fitness": -44732.357857142866,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 8,
+      "candidate_peak": -6413.6428571428,
+      "mean_fitness": -25141.80428571429,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 9,
+      "candidate_peak": -4289.3571428572,
+      "mean_fitness": -18950.609285714276,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 10,
+      "candidate_peak": -636.7142857144,
+      "mean_fitness": -11557.959285714274,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 11,
+      "candidate_peak": 405.2857142856,
+      "mean_fitness": -8557.735000000004,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 12,
+      "candidate_peak": 405.2857142856,
+      "mean_fitness": -6128.874285714291,
+      "valid_count": 0,
+      "best_valid_objective_so_far": 0,
+      "best_valid_revenue_so_far": 0
+    },
+    {
+      "generation": 13,
+      "candidate_peak": 477.9285714286,
+      "mean_fitness": -4080.913571428575,
+      "valid_count": 1,
+      "best_valid_objective_so_far": 477.9285714286,
+      "best_valid_revenue_so_far": 309
+    },
+    {
+      "generation": 14,
+      "candidate_peak": 724.0,
+      "mean_fitness": -2186.4621428571427,
+      "valid_count": 4,
+      "best_valid_objective_so_far": 724.0,
+      "best_valid_revenue_so_far": 432
+    },
+    {
+      "generation": 15,
+      "candidate_peak": 1022.0,
+      "mean_fitness": -925.682142857143,
+      "valid_count": 13,
+      "best_valid_objective_so_far": 1022.0,
+      "best_valid_revenue_so_far": 675
+    },
+    {
+      "generation": 16,
+      "candidate_peak": 1168.1428571428,
+      "mean_fitness": -399.932142857156,
+      "valid_count": 27,
+      "best_valid_objective_so_far": 1168.1428571428,
+      "best_valid_revenue_so_far": 728
+    },
+    {
+      "generation": 17,
+      "candidate_peak": 1168.1428571428,
+      "mean_fitness": -28.459285714302,
+      "valid_count": 41,
+      "best_valid_objective_so_far": 1168.1428571428,
+      "best_valid_revenue_so_far": 728
+    },
+    {
+      "generation": 18,
+      "candidate_peak": 1193.7142857143,
+      "mean_fitness": -61.59000000000899,
+      "valid_count": 44,
+      "best_valid_objective_so_far": 1193.7142857143,
+      "best_valid_revenue_so_far": 751
+    },
+    {
+      "generation": 19,
+      "candidate_peak": 1193.7142857143,
+      "mean_fitness": 103.115714285712,
+      "valid_count": 50,
+      "best_valid_objective_so_far": 1193.7142857143,
+      "best_valid_revenue_so_far": 751
+    },
+    {
+      "generation": 20,
+      "candidate_peak": 1193.7142857143,
+      "mean_fitness": 362.16928571428696,
+      "valid_count": 59,
+      "best_valid_objective_so_far": 1193.7142857143,
+      "best_valid_revenue_so_far": 751
+    },
+    {
+      "generation": 21,
+      "candidate_peak": 1242.2857142857,
+      "mean_fitness": 422.093571428566,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 1242.2857142857,
+      "best_valid_revenue_so_far": 756
+    },
+    {
+      "generation": 22,
+      "candidate_peak": 1290.3571428572,
+      "mean_fitness": 368.941428571426,
+      "valid_count": 57,
+      "best_valid_objective_so_far": 1290.3571428572,
+      "best_valid_revenue_so_far": 827
+    },
+    {
+      "generation": 23,
+      "candidate_peak": 1329.5714285714,
+      "mean_fitness": 623.38142857143,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 1329.5714285714,
+      "best_valid_revenue_so_far": 864
+    },
+    {
+      "generation": 24,
+      "candidate_peak": 1371.2857142857,
+      "mean_fitness": 328.18071428572,
+      "valid_count": 46,
+      "best_valid_objective_so_far": 1371.2857142857,
+      "best_valid_revenue_so_far": 925
+    },
+    {
+      "generation": 25,
+      "candidate_peak": 1371.2857142857,
+      "mean_fitness": 591.485714285716,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 1371.2857142857,
+      "best_valid_revenue_so_far": 925
+    },
+    {
+      "generation": 26,
+      "candidate_peak": 1402.2857142857,
+      "mean_fitness": 558.74357142857,
+      "valid_count": 66,
+      "best_valid_objective_so_far": 1402.2857142857,
+      "best_valid_revenue_so_far": 923
+    },
+    {
+      "generation": 27,
+      "candidate_peak": 1402.2857142857,
+      "mean_fitness": 497.15857142857203,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 1402.2857142857,
+      "best_valid_revenue_so_far": 923
+    },
+    {
+      "generation": 28,
+      "candidate_peak": 1554.4285714285,
+      "mean_fitness": 796.467142857147,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 1554.4285714285,
+      "best_valid_revenue_so_far": 1000
+    },
+    {
+      "generation": 29,
+      "candidate_peak": 1665.2142857143,
+      "mean_fitness": 696.882857142857,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 1665.2142857143,
+      "best_valid_revenue_so_far": 1110
+    },
+    {
+      "generation": 30,
+      "candidate_peak": 1665.2142857143,
+      "mean_fitness": 1032.513571428577,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 1665.2142857143,
+      "best_valid_revenue_so_far": 1110
+    },
+    {
+      "generation": 31,
+      "candidate_peak": 1683.1428571429,
+      "mean_fitness": 1064.978571428575,
+      "valid_count": 79,
+      "best_valid_objective_so_far": 1683.1428571429,
+      "best_valid_revenue_so_far": 1139
+    },
+    {
+      "generation": 32,
+      "candidate_peak": 1701.2857142857,
+      "mean_fitness": 1221.687142857143,
+      "valid_count": 85,
+      "best_valid_objective_so_far": 1701.2857142857,
+      "best_valid_revenue_so_far": 1115
+    },
+    {
+      "generation": 33,
+      "candidate_peak": 1781.6428571429,
+      "mean_fitness": 1287.322857142859,
+      "valid_count": 80,
+      "best_valid_objective_so_far": 1781.6428571429,
+      "best_valid_revenue_so_far": 1178
+    },
+    {
+      "generation": 34,
+      "candidate_peak": 1786.0714285715,
+      "mean_fitness": 1064.833571428577,
+      "valid_count": 74,
+      "best_valid_objective_so_far": 1786.0714285715,
+      "best_valid_revenue_so_far": 1187
+    },
+    {
+      "generation": 35,
+      "candidate_peak": 1812.0,
+      "mean_fitness": 1129.246428571436,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 1812.0,
+      "best_valid_revenue_so_far": 1203
+    },
+    {
+      "generation": 36,
+      "candidate_peak": 1812.0,
+      "mean_fitness": 766.857857142866,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 1812.0,
+      "best_valid_revenue_so_far": 1203
+    },
+    {
+      "generation": 37,
+      "candidate_peak": 1889.7142857143,
+      "mean_fitness": 1243.2842857143019,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 1889.7142857143,
+      "best_valid_revenue_so_far": 1260
+    },
+    {
+      "generation": 38,
+      "candidate_peak": 1896.1428571429,
+      "mean_fitness": 1280.187142857174,
+      "valid_count": 78,
+      "best_valid_objective_so_far": 1896.1428571429,
+      "best_valid_revenue_so_far": 1275
+    },
+    {
+      "generation": 39,
+      "candidate_peak": 1896.1428571429,
+      "mean_fitness": 1342.081428571459,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 1896.1428571429,
+      "best_valid_revenue_so_far": 1275
+    },
+    {
+      "generation": 40,
+      "candidate_peak": 1912.8571428572,
+      "mean_fitness": 1109.383571428594,
+      "valid_count": 73,
+      "best_valid_objective_so_far": 1912.8571428572,
+      "best_valid_revenue_so_far": 1272
+    },
+    {
+      "generation": 41,
+      "candidate_peak": 1942.4285714286,
+      "mean_fitness": 1356.595714285733,
+      "valid_count": 82,
+      "best_valid_objective_so_far": 1942.4285714286,
+      "best_valid_revenue_so_far": 1287
+    },
+    {
+      "generation": 42,
+      "candidate_peak": 2036.4285714286,
+      "mean_fitness": 1215.387857142885,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 2036.4285714286,
+      "best_valid_revenue_so_far": 1364
+    },
+    {
+      "generation": 43,
+      "candidate_peak": 2036.4285714286,
+      "mean_fitness": 1090.270714285736,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 2036.4285714286,
+      "best_valid_revenue_so_far": 1364
+    },
+    {
+      "generation": 44,
+      "candidate_peak": 2122.1428571429,
+      "mean_fitness": 736.50642857146,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2122.1428571429,
+      "best_valid_revenue_so_far": 1370
+    },
+    {
+      "generation": 45,
+      "candidate_peak": 2122.1428571429,
+      "mean_fitness": 998.6114285714581,
+      "valid_count": 66,
+      "best_valid_objective_so_far": 2122.1428571429,
+      "best_valid_revenue_so_far": 1370
+    },
+    {
+      "generation": 46,
+      "candidate_peak": 2122.1428571429,
+      "mean_fitness": 60.13000000002499,
+      "valid_count": 58,
+      "best_valid_objective_so_far": 2122.1428571429,
+      "best_valid_revenue_so_far": 1370
+    },
+    {
+      "generation": 47,
+      "candidate_peak": 2122.1428571429,
+      "mean_fitness": -12.310714285690013,
+      "valid_count": 59,
+      "best_valid_objective_so_far": 2122.1428571429,
+      "best_valid_revenue_so_far": 1370
+    },
+    {
+      "generation": 48,
+      "candidate_peak": 2175.5714285714,
+      "mean_fitness": 565.1892857143021,
+      "valid_count": 66,
+      "best_valid_objective_so_far": 2175.5714285714,
+      "best_valid_revenue_so_far": 1397
+    },
+    {
+      "generation": 49,
+      "candidate_peak": 2238.0,
+      "mean_fitness": 139.477857142881,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 2238.0,
+      "best_valid_revenue_so_far": 1443
+    },
+    {
+      "generation": 50,
+      "candidate_peak": 2238.0,
+      "mean_fitness": -343.622857142837,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2238.0,
+      "best_valid_revenue_so_far": 1443
+    },
+    {
+      "generation": 51,
+      "candidate_peak": 2238.0,
+      "mean_fitness": -600.074999999982,
+      "valid_count": 62,
+      "best_valid_objective_so_far": 2238.0,
+      "best_valid_revenue_so_far": 1443
+    },
+    {
+      "generation": 52,
+      "candidate_peak": 2238.0,
+      "mean_fitness": 282.15642857143797,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2238.0,
+      "best_valid_revenue_so_far": 1443
+    },
+    {
+      "generation": 53,
+      "candidate_peak": 2250.0714285715,
+      "mean_fitness": 31.719285714295005,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 2250.0714285715,
+      "best_valid_revenue_so_far": 1410
+    },
+    {
+      "generation": 54,
+      "candidate_peak": 2270.0,
+      "mean_fitness": -249.76999999999202,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 2270.0,
+      "best_valid_revenue_so_far": 1484
+    },
+    {
+      "generation": 55,
+      "candidate_peak": 2306.0,
+      "mean_fitness": 819.550000000002,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2306.0,
+      "best_valid_revenue_so_far": 1480
+    },
+    {
+      "generation": 56,
+      "candidate_peak": 2306.0,
+      "mean_fitness": 1017.938571428577,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 2306.0,
+      "best_valid_revenue_so_far": 1480
+    },
+    {
+      "generation": 57,
+      "candidate_peak": 2306.0,
+      "mean_fitness": 1139.255000000001,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 2306.0,
+      "best_valid_revenue_so_far": 1480
+    },
+    {
+      "generation": 58,
+      "candidate_peak": 2338.0,
+      "mean_fitness": 705.964285714281,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2338.0,
+      "best_valid_revenue_so_far": 1521
+    },
+    {
+      "generation": 59,
+      "candidate_peak": 2338.0,
+      "mean_fitness": 1346.102142857136,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2338.0,
+      "best_valid_revenue_so_far": 1521
+    },
+    {
+      "generation": 60,
+      "candidate_peak": 2357.0,
+      "mean_fitness": 1402.3300000000008,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2357.0,
+      "best_valid_revenue_so_far": 1540
+    },
+    {
+      "generation": 61,
+      "candidate_peak": 2357.0,
+      "mean_fitness": 844.284285714298,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 2357.0,
+      "best_valid_revenue_so_far": 1540
+    },
+    {
+      "generation": 62,
+      "candidate_peak": 2420.4285714285,
+      "mean_fitness": 709.066428571437,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2420.4285714285,
+      "best_valid_revenue_so_far": 1569
+    },
+    {
+      "generation": 63,
+      "candidate_peak": 2420.4285714285,
+      "mean_fitness": 1044.135000000012,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 2420.4285714285,
+      "best_valid_revenue_so_far": 1569
+    },
+    {
+      "generation": 64,
+      "candidate_peak": 2420.4285714285,
+      "mean_fitness": 287.876428571447,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 2420.4285714285,
+      "best_valid_revenue_so_far": 1569
+    },
+    {
+      "generation": 65,
+      "candidate_peak": 2448.2857142857,
+      "mean_fitness": 546.843571428574,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 2448.2857142857,
+      "best_valid_revenue_so_far": 1617
+    },
+    {
+      "generation": 66,
+      "candidate_peak": 2471.4285714285,
+      "mean_fitness": 71.64714285714199,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 2471.4285714285,
+      "best_valid_revenue_so_far": 1629
+    },
+    {
+      "generation": 67,
+      "candidate_peak": 2471.4285714285,
+      "mean_fitness": -594.790000000005,
+      "valid_count": 49,
+      "best_valid_objective_so_far": 2471.4285714285,
+      "best_valid_revenue_so_far": 1629
+    },
+    {
+      "generation": 68,
+      "candidate_peak": 2471.4285714285,
+      "mean_fitness": -143.37571428573295,
+      "valid_count": 53,
+      "best_valid_objective_so_far": 2471.4285714285,
+      "best_valid_revenue_so_far": 1629
+    },
+    {
+      "generation": 69,
+      "candidate_peak": 2471.4285714285,
+      "mean_fitness": -1396.786428571455,
+      "valid_count": 47,
+      "best_valid_objective_so_far": 2471.4285714285,
+      "best_valid_revenue_so_far": 1629
+    },
+    {
+      "generation": 70,
+      "candidate_peak": 2471.4285714285,
+      "mean_fitness": -661.005714285748,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 2471.4285714285,
+      "best_valid_revenue_so_far": 1629
+    },
+    {
+      "generation": 71,
+      "candidate_peak": 2477.0,
+      "mean_fitness": -413.79000000004686,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 2477.0,
+      "best_valid_revenue_so_far": 1658
+    },
+    {
+      "generation": 72,
+      "candidate_peak": 2477.0,
+      "mean_fitness": 868.6242857142362,
+      "valid_count": 74,
+      "best_valid_objective_so_far": 2477.0,
+      "best_valid_revenue_so_far": 1658
+    },
+    {
+      "generation": 73,
+      "candidate_peak": 2539.2142857142,
+      "mean_fitness": 328.496428571377,
+      "valid_count": 79,
+      "best_valid_objective_so_far": 2539.2142857142,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 74,
+      "candidate_peak": 2539.2142857142,
+      "mean_fitness": -164.2885714286219,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2539.2142857142,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 75,
+      "candidate_peak": 2539.2142857142,
+      "mean_fitness": -473.28714285719093,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 2539.2142857142,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 76,
+      "candidate_peak": 2539.2142857142,
+      "mean_fitness": -1029.140714285756,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 2539.2142857142,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 77,
+      "candidate_peak": 2539.2142857143,
+      "mean_fitness": -1017.9635714286061,
+      "valid_count": 51,
+      "best_valid_objective_so_far": 2539.2142857143,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 78,
+      "candidate_peak": 2543.5,
+      "mean_fitness": -732.22000000004,
+      "valid_count": 58,
+      "best_valid_objective_so_far": 2543.5,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 79,
+      "candidate_peak": 2543.5,
+      "mean_fitness": -1502.0614285714619,
+      "valid_count": 60,
+      "best_valid_objective_so_far": 2543.5,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 80,
+      "candidate_peak": 2543.5,
+      "mean_fitness": -244.185000000032,
+      "valid_count": 54,
+      "best_valid_objective_so_far": 2543.5,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 81,
+      "candidate_peak": 2543.5,
+      "mean_fitness": -54.03857142860407,
+      "valid_count": 58,
+      "best_valid_objective_so_far": 2543.5,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 82,
+      "candidate_peak": 2543.5,
+      "mean_fitness": -338.7757142857421,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 2543.5,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 83,
+      "candidate_peak": 2543.5,
+      "mean_fitness": 836.159999999965,
+      "valid_count": 57,
+      "best_valid_objective_so_far": 2543.5,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 84,
+      "candidate_peak": 2543.5,
+      "mean_fitness": 481.2078571428169,
+      "valid_count": 55,
+      "best_valid_objective_so_far": 2543.5,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 85,
+      "candidate_peak": 2543.5,
+      "mean_fitness": -606.128571428603,
+      "valid_count": 46,
+      "best_valid_objective_so_far": 2543.5,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 86,
+      "candidate_peak": 2543.5,
+      "mean_fitness": 747.7649999999699,
+      "valid_count": 53,
+      "best_valid_objective_so_far": 2543.5,
+      "best_valid_revenue_so_far": 1701
+    },
+    {
+      "generation": 87,
+      "candidate_peak": 2553.9285714285,
+      "mean_fitness": 314.822142857105,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 2553.9285714285,
+      "best_valid_revenue_so_far": 1700
+    },
+    {
+      "generation": 88,
+      "candidate_peak": 2553.9285714285,
+      "mean_fitness": 693.0035714285359,
+      "valid_count": 55,
+      "best_valid_objective_so_far": 2553.9285714285,
+      "best_valid_revenue_so_far": 1700
+    },
+    {
+      "generation": 89,
+      "candidate_peak": 2553.9285714285,
+      "mean_fitness": -32.28071428574307,
+      "valid_count": 57,
+      "best_valid_objective_so_far": 2553.9285714285,
+      "best_valid_revenue_so_far": 1700
+    },
+    {
+      "generation": 90,
+      "candidate_peak": 2553.9285714285,
+      "mean_fitness": -628.7971428571791,
+      "valid_count": 53,
+      "best_valid_objective_so_far": 2553.9285714285,
+      "best_valid_revenue_so_far": 1700
+    },
+    {
+      "generation": 91,
+      "candidate_peak": 2553.9285714285,
+      "mean_fitness": -905.350714285749,
+      "valid_count": 52,
+      "best_valid_objective_so_far": 2553.9285714285,
+      "best_valid_revenue_so_far": 1700
+    },
+    {
+      "generation": 92,
+      "candidate_peak": 2553.9285714285,
+      "mean_fitness": 602.827857142819,
+      "valid_count": 49,
+      "best_valid_objective_so_far": 2553.9285714285,
+      "best_valid_revenue_so_far": 1700
+    },
+    {
+      "generation": 93,
+      "candidate_peak": 2553.9285714285,
+      "mean_fitness": 524.101428571387,
+      "valid_count": 48,
+      "best_valid_objective_so_far": 2553.9285714285,
+      "best_valid_revenue_so_far": 1700
+    },
+    {
+      "generation": 94,
+      "candidate_peak": 2558.2142857142,
+      "mean_fitness": 259.36642857138895,
+      "valid_count": 47,
+      "best_valid_objective_so_far": 2558.2142857142,
+      "best_valid_revenue_so_far": 1700
+    },
+    {
+      "generation": 95,
+      "candidate_peak": 2564.2857142857,
+      "mean_fitness": 1302.919285714242,
+      "valid_count": 58,
+      "best_valid_objective_so_far": 2564.2857142857,
+      "best_valid_revenue_so_far": 1714
+    },
+    {
+      "generation": 96,
+      "candidate_peak": 2564.2857142857,
+      "mean_fitness": -251.56785714290498,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 2564.2857142857,
+      "best_valid_revenue_so_far": 1714
+    },
+    {
+      "generation": 97,
+      "candidate_peak": 2564.2857142857,
+      "mean_fitness": 231.48999999994302,
+      "valid_count": 60,
+      "best_valid_objective_so_far": 2564.2857142857,
+      "best_valid_revenue_so_far": 1714
+    },
+    {
+      "generation": 98,
+      "candidate_peak": 2564.2857142857,
+      "mean_fitness": 905.797142857088,
+      "valid_count": 60,
+      "best_valid_objective_so_far": 2564.2857142857,
+      "best_valid_revenue_so_far": 1714
+    },
+    {
+      "generation": 99,
+      "candidate_peak": 2579.0,
+      "mean_fitness": 256.79285714279507,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2579.0,
+      "best_valid_revenue_so_far": 1713
+    },
+    {
+      "generation": 100,
+      "candidate_peak": 2579.4285714286,
+      "mean_fitness": 569.6957142856701,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2579.4285714286,
+      "best_valid_revenue_so_far": 1693
+    },
+    {
+      "generation": 101,
+      "candidate_peak": 2579.4285714286,
+      "mean_fitness": 306.04999999995414,
+      "valid_count": 79,
+      "best_valid_objective_so_far": 2579.4285714286,
+      "best_valid_revenue_so_far": 1693
+    },
+    {
+      "generation": 102,
+      "candidate_peak": 2579.4285714286,
+      "mean_fitness": 743.274285714257,
+      "valid_count": 78,
+      "best_valid_objective_so_far": 2579.4285714286,
+      "best_valid_revenue_so_far": 1693
+    },
+    {
+      "generation": 103,
+      "candidate_peak": 2579.4285714286,
+      "mean_fitness": -285.79857142859794,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2579.4285714286,
+      "best_valid_revenue_so_far": 1693
+    },
+    {
+      "generation": 104,
+      "candidate_peak": 2643.0,
+      "mean_fitness": -56.815000000013036,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2643.0,
+      "best_valid_revenue_so_far": 1745
+    },
+    {
+      "generation": 105,
+      "candidate_peak": 2643.0,
+      "mean_fitness": -281.865000000008,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2643.0,
+      "best_valid_revenue_so_far": 1745
+    },
+    {
+      "generation": 106,
+      "candidate_peak": 2643.0,
+      "mean_fitness": -369.828571428574,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 2643.0,
+      "best_valid_revenue_so_far": 1745
+    },
+    {
+      "generation": 107,
+      "candidate_peak": 2643.0,
+      "mean_fitness": 492.59642857142995,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 2643.0,
+      "best_valid_revenue_so_far": 1745
+    },
+    {
+      "generation": 108,
+      "candidate_peak": 2643.0,
+      "mean_fitness": 67.35928571429098,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 2643.0,
+      "best_valid_revenue_so_far": 1745
+    },
+    {
+      "generation": 109,
+      "candidate_peak": 2643.0,
+      "mean_fitness": -666.2757142857071,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 2643.0,
+      "best_valid_revenue_so_far": 1745
+    },
+    {
+      "generation": 110,
+      "candidate_peak": 2643.0,
+      "mean_fitness": 799.66214285714,
+      "valid_count": 74,
+      "best_valid_objective_so_far": 2643.0,
+      "best_valid_revenue_so_far": 1745
+    },
+    {
+      "generation": 111,
+      "candidate_peak": 2672.0,
+      "mean_fitness": 468.74142857142897,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 112,
+      "candidate_peak": 2672.0,
+      "mean_fitness": 872.7142857142859,
+      "valid_count": 79,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 113,
+      "candidate_peak": 2672.0,
+      "mean_fitness": -1300.946428571418,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 114,
+      "candidate_peak": 2672.0,
+      "mean_fitness": 442.102857142869,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 115,
+      "candidate_peak": 2672.0,
+      "mean_fitness": 759.5292857142911,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 116,
+      "candidate_peak": 2672.0,
+      "mean_fitness": -1586.653571428561,
+      "valid_count": 59,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 117,
+      "candidate_peak": 2672.0,
+      "mean_fitness": -879.6164285714091,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 118,
+      "candidate_peak": 2672.0,
+      "mean_fitness": -609.6049999999841,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 119,
+      "candidate_peak": 2672.0,
+      "mean_fitness": -1193.1892857142789,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 120,
+      "candidate_peak": 2672.0,
+      "mean_fitness": -1352.8649999999861,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 121,
+      "candidate_peak": 2672.0,
+      "mean_fitness": 547.647857142867,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 122,
+      "candidate_peak": 2672.0,
+      "mean_fitness": 819.39642857143,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2672.0,
+      "best_valid_revenue_so_far": 1731
+    },
+    {
+      "generation": 123,
+      "candidate_peak": 2689.9285714286,
+      "mean_fitness": 873.9185714285741,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 2689.9285714286,
+      "best_valid_revenue_so_far": 1735
+    },
+    {
+      "generation": 124,
+      "candidate_peak": 2695.1428571428,
+      "mean_fitness": -68.192142857142,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 2695.1428571428,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 125,
+      "candidate_peak": 2695.1428571428,
+      "mean_fitness": 720.356428571429,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2695.1428571428,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 126,
+      "candidate_peak": 2695.1428571428,
+      "mean_fitness": -268.173571428572,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2695.1428571428,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 127,
+      "candidate_peak": 2695.1428571428,
+      "mean_fitness": 285.766428571423,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 2695.1428571428,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 128,
+      "candidate_peak": 2695.1428571428,
+      "mean_fitness": 630.939285714267,
+      "valid_count": 59,
+      "best_valid_objective_so_far": 2695.1428571428,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 129,
+      "candidate_peak": 2695.1428571428,
+      "mean_fitness": 774.299285714264,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2695.1428571428,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 130,
+      "candidate_peak": 2695.1428571428,
+      "mean_fitness": -267.375000000034,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2695.1428571428,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 131,
+      "candidate_peak": 2695.1428571428,
+      "mean_fitness": 61.80499999996304,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2695.1428571428,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 132,
+      "candidate_peak": 2695.1428571428,
+      "mean_fitness": -1216.9300000000421,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 2695.1428571428,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 133,
+      "candidate_peak": 2695.1428571429,
+      "mean_fitness": 1010.194285714236,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 2695.1428571429,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 134,
+      "candidate_peak": 2695.1428571429,
+      "mean_fitness": 1023.0157142856681,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 2695.1428571429,
+      "best_valid_revenue_so_far": 1746
+    },
+    {
+      "generation": 135,
+      "candidate_peak": 2730.8571428571,
+      "mean_fitness": 241.95499999995903,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 2730.8571428571,
+      "best_valid_revenue_so_far": 1766
+    },
+    {
+      "generation": 136,
+      "candidate_peak": 2730.8571428571,
+      "mean_fitness": 1008.9542857142461,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 2730.8571428571,
+      "best_valid_revenue_so_far": 1766
+    },
+    {
+      "generation": 137,
+      "candidate_peak": 2742.0,
+      "mean_fitness": 2.9871428570970067,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 2742.0,
+      "best_valid_revenue_so_far": 1784
+    },
+    {
+      "generation": 138,
+      "candidate_peak": 2742.0,
+      "mean_fitness": 651.686428571391,
+      "valid_count": 73,
+      "best_valid_objective_so_far": 2742.0,
+      "best_valid_revenue_so_far": 1784
+    },
+    {
+      "generation": 139,
+      "candidate_peak": 2742.0,
+      "mean_fitness": -943.9657142857449,
+      "valid_count": 54,
+      "best_valid_objective_so_far": 2742.0,
+      "best_valid_revenue_so_far": 1784
+    },
+    {
+      "generation": 140,
+      "candidate_peak": 2742.0,
+      "mean_fitness": -637.3457142857451,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 2742.0,
+      "best_valid_revenue_so_far": 1784
+    },
+    {
+      "generation": 141,
+      "candidate_peak": 2742.0,
+      "mean_fitness": -952.299285714319,
+      "valid_count": 57,
+      "best_valid_objective_so_far": 2742.0,
+      "best_valid_revenue_so_far": 1784
+    },
+    {
+      "generation": 142,
+      "candidate_peak": 2742.0,
+      "mean_fitness": -1013.585714285749,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 2742.0,
+      "best_valid_revenue_so_far": 1784
+    },
+    {
+      "generation": 143,
+      "candidate_peak": 2777.7142857143,
+      "mean_fitness": -1560.915714285752,
+      "valid_count": 61,
+      "best_valid_objective_so_far": 2777.7142857143,
+      "best_valid_revenue_so_far": 1804
+    },
+    {
+      "generation": 144,
+      "candidate_peak": 2777.7142857143,
+      "mean_fitness": -871.2928571428821,
+      "valid_count": 61,
+      "best_valid_objective_so_far": 2777.7142857143,
+      "best_valid_revenue_so_far": 1804
+    },
+    {
+      "generation": 145,
+      "candidate_peak": 2777.7142857143,
+      "mean_fitness": -1378.1242857143059,
+      "valid_count": 54,
+      "best_valid_objective_so_far": 2777.7142857143,
+      "best_valid_revenue_so_far": 1804
+    },
+    {
+      "generation": 146,
+      "candidate_peak": 2777.7142857143,
+      "mean_fitness": -1944.17000000002,
+      "valid_count": 47,
+      "best_valid_objective_so_far": 2777.7142857143,
+      "best_valid_revenue_so_far": 1804
+    },
+    {
+      "generation": 147,
+      "candidate_peak": 2777.7142857143,
+      "mean_fitness": -715.265000000005,
+      "valid_count": 49,
+      "best_valid_objective_so_far": 2777.7142857143,
+      "best_valid_revenue_so_far": 1804
+    },
+    {
+      "generation": 148,
+      "candidate_peak": 2777.7142857143,
+      "mean_fitness": -1006.831428571431,
+      "valid_count": 53,
+      "best_valid_objective_so_far": 2777.7142857143,
+      "best_valid_revenue_so_far": 1804
+    },
+    {
+      "generation": 149,
+      "candidate_peak": 2790.7142857143,
+      "mean_fitness": -277.71214285714996,
+      "valid_count": 49,
+      "best_valid_objective_so_far": 2790.7142857143,
+      "best_valid_revenue_so_far": 1807
+    },
+    {
+      "generation": 150,
+      "candidate_peak": 2790.7142857143,
+      "mean_fitness": 358.8242857142819,
+      "valid_count": 58,
+      "best_valid_objective_so_far": 2790.7142857143,
+      "best_valid_revenue_so_far": 1807
+    },
+    {
+      "generation": 151,
+      "candidate_peak": 2943.4285714286,
+      "mean_fitness": -1259.08214285714,
+      "valid_count": 52,
+      "best_valid_objective_so_far": 2943.4285714286,
+      "best_valid_revenue_so_far": 1846
+    },
+    {
+      "generation": 152,
+      "candidate_peak": 2943.4285714286,
+      "mean_fitness": -13.256428571419033,
+      "valid_count": 66,
+      "best_valid_objective_so_far": 2943.4285714286,
+      "best_valid_revenue_so_far": 1846
+    },
+    {
+      "generation": 153,
+      "candidate_peak": 2943.4285714286,
+      "mean_fitness": 1082.285000000014,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 2943.4285714286,
+      "best_valid_revenue_so_far": 1846
+    },
+    {
+      "generation": 154,
+      "candidate_peak": 2943.4285714286,
+      "mean_fitness": -625.377857142843,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2943.4285714286,
+      "best_valid_revenue_so_far": 1846
+    },
+    {
+      "generation": 155,
+      "candidate_peak": 2943.4285714286,
+      "mean_fitness": -809.7771428571259,
+      "valid_count": 60,
+      "best_valid_objective_so_far": 2943.4285714286,
+      "best_valid_revenue_so_far": 1846
+    },
+    {
+      "generation": 156,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": -808.8849999999829,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 157,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 421.404285714306,
+      "valid_count": 55,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 158,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 1543.654285714305,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 159,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 921.8871428571681,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 160,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 1608.4078571428813,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 161,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 1906.0142857143119,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 162,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 1391.818571428596,
+      "valid_count": 62,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 163,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 1384.946428571454,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 164,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 1114.6785714285952,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 165,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 1351.411428571444,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 166,
+      "candidate_peak": 2956.4285714286,
+      "mean_fitness": 1782.8307142857402,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2956.4285714286,
+      "best_valid_revenue_so_far": 1849
+    },
+    {
+      "generation": 167,
+      "candidate_peak": 2965.7142857143,
+      "mean_fitness": 2241.3221428571683,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 2965.7142857143,
+      "best_valid_revenue_so_far": 1857
+    },
+    {
+      "generation": 168,
+      "candidate_peak": 2965.7142857143,
+      "mean_fitness": 2129.235000000025,
+      "valid_count": 81,
+      "best_valid_objective_so_far": 2965.7142857143,
+      "best_valid_revenue_so_far": 1857
+    },
+    {
+      "generation": 169,
+      "candidate_peak": 2965.7142857143,
+      "mean_fitness": 2083.405714285736,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 2965.7142857143,
+      "best_valid_revenue_so_far": 1857
+    },
+    {
+      "generation": 170,
+      "candidate_peak": 2965.7142857143,
+      "mean_fitness": 2156.2500000000223,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 2965.7142857143,
+      "best_valid_revenue_so_far": 1857
+    },
+    {
+      "generation": 171,
+      "candidate_peak": 2965.7142857143,
+      "mean_fitness": 1536.9057142857318,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 2965.7142857143,
+      "best_valid_revenue_so_far": 1857
+    },
+    {
+      "generation": 172,
+      "candidate_peak": 2965.7142857143,
+      "mean_fitness": 1134.2978571428691,
+      "valid_count": 59,
+      "best_valid_objective_so_far": 2965.7142857143,
+      "best_valid_revenue_so_far": 1857
+    },
+    {
+      "generation": 173,
+      "candidate_peak": 2965.7142857143,
+      "mean_fitness": 1610.051428571445,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 2965.7142857143,
+      "best_valid_revenue_so_far": 1857
+    },
+    {
+      "generation": 174,
+      "candidate_peak": 2967.4285714286,
+      "mean_fitness": 1791.802142857156,
+      "valid_count": 60,
+      "best_valid_objective_so_far": 2967.4285714286,
+      "best_valid_revenue_so_far": 1860
+    },
+    {
+      "generation": 175,
+      "candidate_peak": 2967.4285714286,
+      "mean_fitness": 2131.470000000018,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 2967.4285714286,
+      "best_valid_revenue_so_far": 1860
+    },
+    {
+      "generation": 176,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1838.333571428585,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 177,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 2065.937857142875,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 178,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 2267.41071428573,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 179,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 731.5192857143011,
+      "valid_count": 54,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 180,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1224.674285714298,
+      "valid_count": 49,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 181,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1311.22714285716,
+      "valid_count": 49,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 182,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1818.313571428578,
+      "valid_count": 60,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 183,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1861.6750000000131,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 184,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1878.7778571428698,
+      "valid_count": 73,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 185,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1643.0292857142967,
+      "valid_count": 66,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 186,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1193.2128571428639,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 187,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1408.052142857151,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 188,
+      "candidate_peak": 2976.7142857143,
+      "mean_fitness": 1846.3535714285829,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2976.7142857143,
+      "best_valid_revenue_so_far": 1868
+    },
+    {
+      "generation": 189,
+      "candidate_peak": 2985.9285714286,
+      "mean_fitness": 1742.417857142869,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 2985.9285714286,
+      "best_valid_revenue_so_far": 1883
+    },
+    {
+      "generation": 190,
+      "candidate_peak": 2985.9285714286,
+      "mean_fitness": 2276.7692857143,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 2985.9285714286,
+      "best_valid_revenue_so_far": 1883
+    },
+    {
+      "generation": 191,
+      "candidate_peak": 2985.9285714286,
+      "mean_fitness": 1925.419285714298,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 2985.9285714286,
+      "best_valid_revenue_so_far": 1883
+    },
+    {
+      "generation": 192,
+      "candidate_peak": 2985.9285714286,
+      "mean_fitness": 2244.7657142857297,
+      "valid_count": 74,
+      "best_valid_objective_so_far": 2985.9285714286,
+      "best_valid_revenue_so_far": 1883
+    },
+    {
+      "generation": 193,
+      "candidate_peak": 2985.9285714286,
+      "mean_fitness": 1331.51285714287,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 2985.9285714286,
+      "best_valid_revenue_so_far": 1883
+    },
+    {
+      "generation": 194,
+      "candidate_peak": 2985.9285714286,
+      "mean_fitness": 897.808571428586,
+      "valid_count": 61,
+      "best_valid_objective_so_far": 2985.9285714286,
+      "best_valid_revenue_so_far": 1883
+    },
+    {
+      "generation": 195,
+      "candidate_peak": 3040.9285714286,
+      "mean_fitness": 1186.632857142876,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 3040.9285714286,
+      "best_valid_revenue_so_far": 1874
+    },
+    {
+      "generation": 196,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 814.690714285735,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 197,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1148.881428571449,
+      "valid_count": 59,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 198,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1624.50000000002,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 199,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 863.0992857143011,
+      "valid_count": 59,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 200,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1206.257142857158,
+      "valid_count": 60,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 201,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1573.1250000000118,
+      "valid_count": 62,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 202,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1088.0571428571682,
+      "valid_count": 61,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 203,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1936.9878571428912,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 204,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 2019.2628571428932,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 205,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1610.9964285714623,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 206,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1441.8014285714642,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 207,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 2085.162857142895,
+      "valid_count": 74,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 208,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1476.2428571428961,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 209,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 2175.9742857143237,
+      "valid_count": 81,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 210,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1086.510000000029,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 211,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 2012.4414285714622,
+      "valid_count": 77,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 212,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1924.2964285714652,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 213,
+      "candidate_peak": 3050.1428571429,
+      "mean_fitness": 1620.3942857143272,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 3050.1428571429,
+      "best_valid_revenue_so_far": 1889
+    },
+    {
+      "generation": 214,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 1717.282142857184,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 215,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 1493.045000000037,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 216,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 1480.456428571462,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 217,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 907.9007142857521,
+      "valid_count": 61,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 218,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 644.4457142857522,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 219,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 1789.3914285714623,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 220,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 1062.870714285745,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 221,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 652.836428571458,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 222,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 60.475714285749085,
+      "valid_count": 54,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 223,
+      "candidate_peak": 3094.1428571429,
+      "mean_fitness": 1937.250714285742,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 3094.1428571429,
+      "best_valid_revenue_so_far": 1882
+    },
+    {
+      "generation": 224,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 1281.453571428606,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 225,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 1933.866428571464,
+      "valid_count": 78,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 226,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 1265.241428571461,
+      "valid_count": 77,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 227,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 2048.67714285717,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 228,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 1162.9778571428699,
+      "valid_count": 79,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 229,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 954.634285714289,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 230,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 1584.525714285706,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 231,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 473.879999999983,
+      "valid_count": 73,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 232,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 708.712142857122,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 233,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 769.3457142856918,
+      "valid_count": 73,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 234,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 1201.534285714261,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 235,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 1741.1471428571178,
+      "valid_count": 79,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 236,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 2000.3771428571179,
+      "valid_count": 77,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 237,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 922.9392857142558,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 238,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 687.0299999999729,
+      "valid_count": 66,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 239,
+      "candidate_peak": 3123.0714285714,
+      "mean_fitness": 1499.844285714257,
+      "valid_count": 74,
+      "best_valid_objective_so_far": 3123.0714285714,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 240,
+      "candidate_peak": 3123.0714285715,
+      "mean_fitness": 938.1228571428338,
+      "valid_count": 74,
+      "best_valid_objective_so_far": 3123.0714285715,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 241,
+      "candidate_peak": 3123.0714285715,
+      "mean_fitness": 1403.9778571428358,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 3123.0714285715,
+      "best_valid_revenue_so_far": 1897
+    },
+    {
+      "generation": 242,
+      "candidate_peak": 3141.0714285714,
+      "mean_fitness": 1178.1642857142658,
+      "valid_count": 67,
+      "best_valid_objective_so_far": 3141.0714285714,
+      "best_valid_revenue_so_far": 1898
+    },
+    {
+      "generation": 243,
+      "candidate_peak": 3141.0714285714,
+      "mean_fitness": 1541.769285714268,
+      "valid_count": 53,
+      "best_valid_objective_so_far": 3141.0714285714,
+      "best_valid_revenue_so_far": 1898
+    },
+    {
+      "generation": 244,
+      "candidate_peak": 3141.0714285714,
+      "mean_fitness": 21.605714285697935,
+      "valid_count": 54,
+      "best_valid_objective_so_far": 3141.0714285714,
+      "best_valid_revenue_so_far": 1898
+    },
+    {
+      "generation": 245,
+      "candidate_peak": 3141.0714285714,
+      "mean_fitness": 384.8678571428419,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 3141.0714285714,
+      "best_valid_revenue_so_far": 1898
+    },
+    {
+      "generation": 246,
+      "candidate_peak": 3141.0714285714,
+      "mean_fitness": 1776.6407142856929,
+      "valid_count": 62,
+      "best_valid_objective_so_far": 3141.0714285714,
+      "best_valid_revenue_so_far": 1898
+    },
+    {
+      "generation": 247,
+      "candidate_peak": 3141.0714285714,
+      "mean_fitness": 531.9735714285479,
+      "valid_count": 50,
+      "best_valid_objective_so_far": 3141.0714285714,
+      "best_valid_revenue_so_far": 1898
+    },
+    {
+      "generation": 248,
+      "candidate_peak": 3141.0714285714,
+      "mean_fitness": 896.206428571406,
+      "valid_count": 46,
+      "best_valid_objective_so_far": 3141.0714285714,
+      "best_valid_revenue_so_far": 1898
+    },
+    {
+      "generation": 249,
+      "candidate_peak": 3141.0714285714,
+      "mean_fitness": 1440.1657142856918,
+      "valid_count": 62,
+      "best_valid_objective_so_far": 3141.0714285714,
+      "best_valid_revenue_so_far": 1898
+    },
+    {
+      "generation": 250,
+      "candidate_peak": 3157.0714285714,
+      "mean_fitness": 414.9314285714099,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 3157.0714285714,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 251,
+      "candidate_peak": 3157.0714285714,
+      "mean_fitness": 868.3171428571229,
+      "valid_count": 51,
+      "best_valid_objective_so_far": 3157.0714285714,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 252,
+      "candidate_peak": 3157.0714285714,
+      "mean_fitness": 231.5157142856919,
+      "valid_count": 50,
+      "best_valid_objective_so_far": 3157.0714285714,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 253,
+      "candidate_peak": 3157.0714285714,
+      "mean_fitness": 376.74785714283985,
+      "valid_count": 49,
+      "best_valid_objective_so_far": 3157.0714285714,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 254,
+      "candidate_peak": 3157.0714285714,
+      "mean_fitness": -8.355714285740092,
+      "valid_count": 43,
+      "best_valid_objective_so_far": 3157.0714285714,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 255,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 220.24785714283198,
+      "valid_count": 32,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 256,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 262.2057142857049,
+      "valid_count": 41,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 257,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 915.123571428559,
+      "valid_count": 46,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 258,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 597.733571428553,
+      "valid_count": 58,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 259,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 36.865000000003874,
+      "valid_count": 57,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 260,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": -54.289285714273085,
+      "valid_count": 56,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 261,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 652.1085714285889,
+      "valid_count": 47,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 262,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 738.7728571428919,
+      "valid_count": 59,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 263,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 745.1228571429069,
+      "valid_count": 61,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 264,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 777.2092857143429,
+      "valid_count": 64,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 265,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 943.502142857201,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 266,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 975.7071428572049,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 267,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1464.866428571491,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 268,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": -269.5878571427971,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 269,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 728.4507142857749,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 270,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1350.647142857202,
+      "valid_count": 78,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 271,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 437.63357142863094,
+      "valid_count": 63,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 272,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1052.7221428572018,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 273,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1988.395000000064,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 274,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 613.6078571429149,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 275,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 544.292142857203,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 276,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1285.6685714286318,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 277,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 2014.417142857204,
+      "valid_count": 69,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 278,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": -369.5135714285121,
+      "valid_count": 61,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 279,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1722.6321428572007,
+      "valid_count": 77,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 280,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 899.6300000000599,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 281,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 888.661428571489,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 282,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1148.910000000064,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 283,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1807.522857142922,
+      "valid_count": 80,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 284,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 759.666428571493,
+      "valid_count": 77,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 285,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1145.7550000000608,
+      "valid_count": 78,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 286,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 429.50142857149194,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 287,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 549.6507142857769,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 288,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1345.4014285714898,
+      "valid_count": 72,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 289,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 254.65785714291388,
+      "valid_count": 65,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 290,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 541.2321428572038,
+      "valid_count": 75,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 291,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1314.919285714351,
+      "valid_count": 76,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 292,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 761.4550000000639,
+      "valid_count": 66,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 293,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 792.090714285773,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 294,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 944.78500000006,
+      "valid_count": 73,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 295,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1035.9900000000628,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 296,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 900.5335714286339,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 297,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 303.56857142863095,
+      "valid_count": 68,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 298,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 242.5578571429199,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 299,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": -588.3149999999381,
+      "valid_count": 70,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    },
+    {
+      "generation": 300,
+      "candidate_peak": 3157.0714285715,
+      "mean_fitness": 1131.135000000066,
+      "valid_count": 71,
+      "best_valid_objective_so_far": 3157.0714285715,
+      "best_valid_revenue_so_far": 1914
+    }
+  ],
+  "initial_best_state": {
+    "V001": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V002": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V003": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V004": {
+      "position": [
+        5,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V005": {
+      "position": [
+        17,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V006": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V007": {
+      "position": [
+        7,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V008": {
+      "position": [
+        7,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V009": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V010": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V011": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V012": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V013": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V014": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V015": {
+      "position": [
+        10,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V016": {
+      "position": [
+        4,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V017": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V018": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V019": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V020": {
+      "position": [
+        11,
+        2
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V021": {
+      "position": [
+        4,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V022": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V023": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V024": {
+      "position": [
+        5,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V025": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V026": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V027": {
+      "position": [
+        9,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V028": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V029": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V030": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V031": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V032": {
+      "position": [
+        10,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V033": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V034": {
+      "position": [
+        5,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V035": {
+      "position": [
+        11,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V036": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V037": {
+      "position": [
+        8,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V038": {
+      "position": [
+        7,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V039": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V040": {
+      "position": [
+        9,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V041": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V042": {
+      "position": [
+        0,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V043": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V044": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V045": {
+      "position": [
+        15,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V046": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V047": {
+      "position": [
+        8,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V048": {
+      "position": [
+        1,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V049": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V050": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V051": {
+      "position": [
+        9,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V053": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V054": {
+      "position": [
+        10,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V055": {
+      "position": [
+        15,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V056": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V057": {
+      "position": [
+        10,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V058": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V059": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V060": {
+      "position": [
+        1,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V061": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V062": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V063": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V064": {
+      "position": [
+        13,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V065": {
+      "position": [
+        4,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V066": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V067": {
+      "position": [
+        5,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V068": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V069": {
+      "position": [
+        1,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V070": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V071": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V072": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V073": {
+      "position": [
+        7,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V075": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V076": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V078": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V079": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V080": {
+      "position": [
+        0,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V081": {
+      "position": [
+        7,
+        2
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V082": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V083": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V085": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V086": {
+      "position": [
+        9,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V087": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V088": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V089": {
+      "position": [
+        0,
+        2
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V090": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    }
+  },
+  "initial_best_metrics": {
+    "revenue": 2208,
+    "objective_value": 3514.9285714285,
+    "total_weight": 1165,
+    "loaded_count": 36,
+    "overlap": 168,
+    "excess_weight": 315,
+    "score": -181543.0714285715,
+    "objective": "eta_priority",
+    "penalty_coefficient": 383.1428571428571,
+    "is_valid": false,
+    "per_ship": {
+      "S1": {
+        "grid": [
+          [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            1,
+            3,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            1,
+            2,
+            2,
+            3,
+            1,
+            2,
+            4,
+            3,
+            2,
+            3,
+            1,
+            3,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            1,
+            3,
+            3,
+            2,
+            1,
+            2,
+            4,
+            3,
+            2,
+            3,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2,
+            1,
+            2,
+            3,
+            3,
+            1,
+            0,
+            1,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            2,
+            3,
+            3,
+            2,
+            1,
+            1,
+            2,
+            3,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "revenue": 1066,
+        "objective_value": 1635.3571428571,
+        "total_weight": 674,
+        "loaded_count": 21,
+        "max_capacity": 500,
+        "overlap": 73,
+        "excess_weight": 174,
+        "score": -93000.9285714286,
+        "is_valid": false
+      },
+      "S2": {
+        "grid": [
+          [
+            0,
+            1,
+            1,
+            2,
+            1,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            2,
+            1,
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            3,
+            5,
+            6,
+            5,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            2,
+            1,
+            2,
+            2,
+            2,
+            3,
+            5,
+            4,
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            3,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            3,
+            4,
+            2,
+            2,
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            2,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "revenue": 1142,
+        "objective_value": 1879.5714285714,
+        "total_weight": 491,
+        "loaded_count": 15,
+        "max_capacity": 350,
+        "overlap": 95,
+        "excess_weight": 141,
+        "score": -88542.1428571429,
+        "is_valid": false
+      }
+    },
+    "fitness": -181543.0714285715
+  },
+  "best_fitness_state": {
+    "V001": {
+      "position": [
+        7,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V002": {
+      "position": [
+        4,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V003": {
+      "position": [
+        12,
+        9
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V004": {
+      "position": [
+        12,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V005": {
+      "position": [
+        7,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V006": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V007": {
+      "position": [
+        7,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V008": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V009": {
+      "position": [
+        3,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V010": {
+      "position": [
+        8,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V011": {
+      "position": [
+        8,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V012": {
+      "position": [
+        13,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V013": {
+      "position": [
+        0,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V014": {
+      "position": [
+        10,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V015": {
+      "position": [
+        1,
+        7
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V016": {
+      "position": [
+        4,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V017": {
+      "position": [
+        13,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V018": {
+      "position": [
+        16,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V019": {
+      "position": [
+        2,
+        6
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V020": {
+      "position": [
+        8,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V021": {
+      "position": [
+        13,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V022": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V023": {
+      "position": [
+        5,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V024": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V025": {
+      "position": [
+        12,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V026": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V027": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V028": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V029": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V030": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V031": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V032": {
+      "position": [
+        0,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V033": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V034": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V035": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V036": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V037": {
+      "position": [
+        10,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V038": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V039": {
+      "position": [
+        5,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V040": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V041": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V042": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V043": {
+      "position": [
+        4,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V044": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V045": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V046": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V047": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V048": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V049": {
+      "position": [
+        17,
+        6
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V050": {
+      "position": [
+        17,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V051": {
+      "position": [
+        9,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V053": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V054": {
+      "position": [
+        4,
+        8
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V055": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V056": {
+      "position": [
+        14,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V057": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V058": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V059": {
+      "position": [
+        1,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V060": {
+      "position": [
+        1,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V061": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V062": {
+      "position": [
+        7,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V063": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V064": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V065": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V066": {
+      "position": [
+        9,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V067": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V068": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V069": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V070": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V071": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V072": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V073": {
+      "position": [
+        10,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V075": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V076": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V078": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V079": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V080": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V081": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V082": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V083": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V085": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V086": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V087": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V088": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V089": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V090": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    }
+  },
+  "best_fitness_metrics": {
+    "revenue": 1914,
+    "objective_value": 3157.0714285715,
+    "total_weight": 826,
+    "loaded_count": 37,
+    "overlap": 0,
+    "excess_weight": 0,
+    "score": 3157.0714285715,
+    "objective": "eta_priority",
+    "penalty_coefficient": 383.1428571428571,
+    "is_valid": true,
+    "per_ship": {
+      "S1": {
+        "grid": [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        ],
+        "revenue": 1169,
+        "objective_value": 1988.6428571429,
+        "total_weight": 495,
+        "loaded_count": 21,
+        "max_capacity": 500,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1988.6428571429,
+        "is_valid": true
+      },
+      "S2": {
+        "grid": [
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "revenue": 745,
+        "objective_value": 1168.4285714286,
+        "total_weight": 331,
+        "loaded_count": 16,
+        "max_capacity": 350,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1168.4285714286,
+        "is_valid": true
+      }
+    },
+    "fitness": 3157.0714285715
+  },
+  "best_fitness_generation": 255,
+  "best_valid_state": {
+    "V001": {
+      "position": [
+        7,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V002": {
+      "position": [
+        4,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V003": {
+      "position": [
+        12,
+        9
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V004": {
+      "position": [
+        12,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V005": {
+      "position": [
+        7,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V006": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V007": {
+      "position": [
+        7,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V008": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V009": {
+      "position": [
+        3,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V010": {
+      "position": [
+        8,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V011": {
+      "position": [
+        8,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V012": {
+      "position": [
+        13,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V013": {
+      "position": [
+        0,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V014": {
+      "position": [
+        10,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V015": {
+      "position": [
+        1,
+        7
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V016": {
+      "position": [
+        4,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V017": {
+      "position": [
+        13,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V018": {
+      "position": [
+        16,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V019": {
+      "position": [
+        2,
+        6
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V020": {
+      "position": [
+        8,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V021": {
+      "position": [
+        13,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V022": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V023": {
+      "position": [
+        5,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V024": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V025": {
+      "position": [
+        12,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V026": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V027": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V028": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V029": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V030": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V031": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V032": {
+      "position": [
+        0,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V033": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V034": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V035": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V036": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V037": {
+      "position": [
+        10,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V038": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V039": {
+      "position": [
+        5,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V040": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V041": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V042": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V043": {
+      "position": [
+        4,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V044": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V045": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V046": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V047": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V048": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V049": {
+      "position": [
+        17,
+        6
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V050": {
+      "position": [
+        17,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V051": {
+      "position": [
+        9,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V053": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V054": {
+      "position": [
+        4,
+        8
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V055": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V056": {
+      "position": [
+        14,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V057": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V058": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V059": {
+      "position": [
+        1,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V060": {
+      "position": [
+        1,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V061": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V062": {
+      "position": [
+        7,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V063": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V064": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V065": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V066": {
+      "position": [
+        9,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V067": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V068": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V069": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V070": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V071": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V072": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V073": {
+      "position": [
+        10,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V075": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V076": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V078": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V079": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V080": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V081": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V082": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V083": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V085": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V086": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V087": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V088": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V089": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V090": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    }
+  },
+  "best_valid_metrics": {
+    "revenue": 1914,
+    "objective_value": 3157.0714285715,
+    "total_weight": 826,
+    "loaded_count": 37,
+    "overlap": 0,
+    "excess_weight": 0,
+    "score": 3157.0714285715,
+    "objective": "eta_priority",
+    "penalty_coefficient": 383.1428571428571,
+    "is_valid": true,
+    "per_ship": {
+      "S1": {
+        "grid": [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        ],
+        "revenue": 1169,
+        "objective_value": 1988.6428571429,
+        "total_weight": 495,
+        "loaded_count": 21,
+        "max_capacity": 500,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1988.6428571429,
+        "is_valid": true
+      },
+      "S2": {
+        "grid": [
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "revenue": 745,
+        "objective_value": 1168.4285714286,
+        "total_weight": 331,
+        "loaded_count": 16,
+        "max_capacity": 350,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1168.4285714286,
+        "is_valid": true
+      }
+    },
+    "fitness": 3157.0714285715
+  },
+  "best_valid_from_fallback": false,
+  "best_valid_generation": 255,
+  "experiment": {
+    "dataset": "data.json",
+    "dataset_sha256": "9a8f1e12744b47c4ffbd84cef0ab2a82bf4b18126f560f12d27f722691a571d5",
+    "initial_seed": 101,
+    "search_seed": 101,
+    "load_probability": 0.5,
+    "python_version": "3.12.5",
+    "objective": "eta_priority",
+    "ship_count": 2,
+    "fleet_dataset": "fleet.json",
+    "fleet_sha256": "b4248fc934864c06950e3aa73f47c723104f6bfa2b5c68d8a88f7135a1803be7"
+  },
+  "ships": [
+    {
+      "id": "S1",
+      "w": 10,
+      "l": 20,
+      "max_capacity": 500
+    },
+    {
+      "id": "S2",
+      "w": 8,
+      "l": 15,
+      "max_capacity": 350
+    }
+  ]
+}

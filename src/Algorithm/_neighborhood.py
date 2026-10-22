@@ -10,88 +10,105 @@ from itertools import combinations
 
 from ..Core.evaluation import evaluate
 from ..Core.state import copy_state, footprint
+from ..Core.fleet import ships_by_id, placement_ship_id, make_placement
+from ..Core.objectives import normalize_objective, vehicle_values
 
 
 class Neighborhood:
-    def __init__(self, vehicles, ship):
+    def __init__(self, vehicles, ship, objective="shipping_fee"):
         self.vehicles = vehicles
         self.ship = ship
+        self.fleet = ships_by_id(ship)
+        self.objective = normalize_objective(objective)
+        self.values = vehicle_values(vehicles, self.objective)
+        offsets = {}
+        size = 0
+        for sid, deck in self.fleet.items():
+            offsets[sid] = size
+            size += deck["w"] * deck["l"]
         self.cells = {}
         self.positions = {}
         for vid, vehicle in vehicles.items():
             for orientation in ("H", "V"):
                 dx, dy = footprint(vehicle, orientation)
-                positions = [
-                    (x, y)
-                    for y in range(max(0, ship["w"] - dy + 1))
-                    for x in range(max(0, ship["l"] - dx + 1))
-                ]
-                self.positions[vid, orientation] = [None, *positions]
-                self.cells[vid, None, orientation] = ()
-                for x, y in positions:
-                    self.cells[vid, (x, y), orientation] = tuple(
-                        yy * ship["l"] + xx
-                        for yy in range(y, y + dy)
-                        for xx in range(x, x + dx)
-                    )
+                self.positions[vid, orientation] = [(None, None)]
+                self.cells[vid, None, None, orientation] = ()
+                for sid, deck in self.fleet.items():
+                    for y in range(max(0, deck["w"] - dy + 1)):
+                        for x in range(max(0, deck["l"] - dx + 1)):
+                            self.positions[vid, orientation].append((sid, (x, y)))
+                            self.cells[vid, sid, (x, y), orientation] = tuple(
+                                offsets[sid] + yy * deck["l"] + xx
+                                for yy in range(y, y + dy)
+                                for xx in range(x, x + dx)
+                            )
 
     def bind(self, state):
         """Baca score/grid acuan setiap iterasi; juga memvalidasi state."""
         self.state = state
-        self.metrics = evaluate(state, self.vehicles, self.ship)
-        self.grid = [count for row in self.metrics["grid"] for count in row]
+        self.metrics = evaluate(state, self.vehicles, self.ship, self.objective)
+        self.grid = [count for sid in self.fleet
+                     for row in self.metrics["per_ship"][sid]["grid"] for count in row]
         self.placements = {
-            vid: (tuple(p["position"]) if p["position"] is not None else None,
+            vid: (placement_ship_id(p, self.ship),
+                  tuple(p["position"]) if p["position"] is not None else None,
                   p["orientation"])
             for vid, p in state.items()
         }
 
     def changes(self):
         for vid in self.vehicles:
-            position, orientation = self.placements[vid]
-            for target in self.positions[vid, orientation]:
-                if target != position:
-                    yield ((vid, target, orientation),)
+            sid, position, orientation = self.placements[vid]
+            for target_sid, target in self.positions[vid, orientation]:
+                if (target_sid, target) != (sid, position):
+                    yield ((vid, target_sid, target, orientation),)
             rotated = "V" if orientation == "H" else "H"
-            if (vid, position, rotated) in self.cells:
-                yield ((vid, position, rotated),)
+            if (vid, sid, position, rotated) in self.cells:
+                yield ((vid, sid, position, rotated),)
         for first, second in combinations(self.vehicles, 2):
-            a, ao = self.placements[first]
-            b, bo = self.placements[second]
-            # Anchor sama = no-op, termasuk kedua kendaraan di luar.
+            sa, a, ao = self.placements[first]
+            sb, b, bo = self.placements[second]
+            # Kapal DAN anchor sama = no-op, termasuk kedua kendaraan di luar.
             # Satu di luar tetap swap dua placement: kendaraan masuk DAN keluar.
-            if a == b:
+            if (sa, a) == (sb, b):
                 continue
-            if (first, b, ao) in self.cells and (second, a, bo) in self.cells:
-                yield ((first, b, ao), (second, a, bo))
+            if (first, sb, b, ao) in self.cells and (second, sa, a, bo) in self.cells:
+                yield ((first, sb, b, ao), (second, sa, a, bo))
 
     def score(self, changes):
         counts = {}
-        fee_delta = weight_delta = 0
-        for vid, position, orientation in changes:
-            old_position, old_orientation = self.placements[vid]
-            for cell in self.cells[vid, old_position, old_orientation]:
+        value_delta = 0
+        weight_deltas = {}
+        for vid, sid, position, orientation in changes:
+            old_sid, old_position, old_orientation = self.placements[vid]
+            for cell in self.cells[vid, old_sid, old_position, old_orientation]:
                 counts[cell] = counts.get(cell, 0) - 1
-            for cell in self.cells[vid, position, orientation]:
+            for cell in self.cells[vid, sid, position, orientation]:
                 counts[cell] = counts.get(cell, 0) + 1
             loaded_delta = int(position is not None) - int(old_position is not None)
-            fee_delta += loaded_delta * self.vehicles[vid]["shipping_fee"]
-            weight_delta += loaded_delta * self.vehicles[vid]["weight"]
+            value_delta += loaded_delta * self.values[vid]
+            weight = self.vehicles[vid]["weight"]
+            if old_sid is not None:
+                weight_deltas[old_sid] = weight_deltas.get(old_sid, 0) - weight
+            if sid is not None:
+                weight_deltas[sid] = weight_deltas.get(sid, 0) + weight
         overlap_delta = sum(
             max(0, self.grid[cell] + delta - 1) - max(0, self.grid[cell] - 1)
             for cell, delta in counts.items() if delta
         )
-        excess_delta = (
-            max(0, self.metrics["total_weight"] + weight_delta - self.ship["max_capacity"])
-            - self.metrics["excess_weight"]
+        excess_delta = sum(
+            max(0, self.metrics["per_ship"][sid]["total_weight"] + delta
+                - self.fleet[sid]["max_capacity"])
+            - self.metrics["per_ship"][sid]["excess_weight"]
+            for sid, delta in weight_deltas.items() if delta
         )
-        return (
-            self.metrics["score"] + fee_delta
+        return round((
+            self.metrics["score"] + value_delta
             - self.metrics["penalty_coefficient"] * (overlap_delta + excess_delta)
-        )
+        ), 10)
 
     def apply(self, changes):
         result = copy_state(self.state)
-        for vid, position, orientation in changes:
-            result[vid] = {"position": position, "orientation": orientation}
+        for vid, sid, position, orientation in changes:
+            result[vid] = make_placement(position, orientation, self.ship, sid)
         return result

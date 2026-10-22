@@ -1,0 +1,3573 @@
+{
+  "algorithm": "sideways",
+  "initial_state": {
+    "V001": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V002": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V003": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V004": {
+      "position": [
+        14,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V005": {
+      "position": [
+        7,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V006": {
+      "position": [
+        2,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V007": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V008": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V009": {
+      "position": [
+        13,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V010": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V011": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V012": {
+      "position": [
+        8,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V013": {
+      "position": [
+        6,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V014": {
+      "position": [
+        3,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V015": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V016": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V017": {
+      "position": [
+        4,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V018": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V019": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V020": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V021": {
+      "position": [
+        12,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V022": {
+      "position": [
+        2,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V023": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V024": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V025": {
+      "position": [
+        10,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V026": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V027": {
+      "position": [
+        11,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V028": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V029": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V030": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V031": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V032": {
+      "position": [
+        0,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V033": {
+      "position": [
+        14,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V034": {
+      "position": [
+        3,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V035": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V036": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V037": {
+      "position": [
+        0,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V038": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V039": {
+      "position": [
+        14,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V040": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V041": {
+      "position": [
+        10,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V042": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V043": {
+      "position": [
+        14,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V044": {
+      "position": [
+        6,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V045": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V046": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V047": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V048": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V049": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V050": {
+      "position": [
+        8,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V051": {
+      "position": [
+        7,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V053": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V054": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V055": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V056": {
+      "position": [
+        9,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V057": {
+      "position": [
+        3,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V058": {
+      "position": [
+        11,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V059": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V060": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V061": {
+      "position": [
+        7,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V062": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V063": {
+      "position": [
+        2,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V064": {
+      "position": [
+        0,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V065": {
+      "position": [
+        9,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V066": {
+      "position": [
+        9,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V067": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V068": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V069": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V070": {
+      "position": [
+        3,
+        2
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V071": {
+      "position": [
+        11,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V072": {
+      "position": [
+        0,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V073": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V075": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V076": {
+      "position": [
+        6,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V077": {
+      "position": [
+        7,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V078": {
+      "position": [
+        6,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V079": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V080": {
+      "position": [
+        2,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V081": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V082": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V083": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V084": {
+      "position": [
+        8,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V085": {
+      "position": [
+        2,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V086": {
+      "position": [
+        0,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V087": {
+      "position": [
+        4,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V088": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V089": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V090": {
+      "position": [
+        10,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    }
+  },
+  "initial_metrics": {
+    "revenue": 3557,
+    "objective_value": 5466.1428571429,
+    "total_weight": 1723,
+    "loaded_count": 45,
+    "overlap": 318,
+    "excess_weight": 873,
+    "score": -450856.9999999999,
+    "objective": "eta_priority",
+    "penalty_coefficient": 383.1428571428571,
+    "is_valid": false,
+    "per_ship": {
+      "S1": {
+        "grid": [
+          [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            3,
+            3,
+            1,
+            3,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            3,
+            3,
+            1,
+            3,
+            2,
+            3,
+            1,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            3,
+            3,
+            3,
+            1,
+            1,
+            2,
+            3,
+            2,
+            3,
+            4,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            5,
+            4,
+            3,
+            1,
+            1,
+            2,
+            3,
+            2,
+            3,
+            5,
+            3,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            5,
+            4,
+            3,
+            1,
+            1,
+            1,
+            2,
+            1,
+            2,
+            4,
+            3,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            2,
+            2,
+            0,
+            1,
+            1,
+            2,
+            1,
+            2,
+            4,
+            3,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            4,
+            3,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "revenue": 1618,
+        "objective_value": 2478.9285714286,
+        "total_weight": 776,
+        "loaded_count": 19,
+        "max_capacity": 500,
+        "overlap": 124,
+        "excess_weight": 276,
+        "score": -150778.2142857142,
+        "is_valid": false
+      },
+      "S2": {
+        "grid": [
+          [
+            1,
+            1,
+            0,
+            2,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2,
+            2,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            3,
+            6,
+            6,
+            4,
+            4,
+            3,
+            2,
+            3,
+            4,
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            3,
+            4,
+            7,
+            7,
+            5,
+            6,
+            5,
+            3,
+            3,
+            4,
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            3,
+            4,
+            5,
+            5,
+            4,
+            4,
+            4,
+            2,
+            3,
+            4,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            3,
+            3,
+            3,
+            2,
+            3,
+            4,
+            3,
+            5,
+            7,
+            5,
+            4,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            3,
+            3,
+            3,
+            4,
+            5,
+            3,
+            3,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            0,
+            1,
+            1
+          ]
+        ],
+        "revenue": 1939,
+        "objective_value": 2987.2142857143,
+        "total_weight": 947,
+        "loaded_count": 26,
+        "max_capacity": 350,
+        "overlap": 194,
+        "excess_weight": 597,
+        "score": -300078.7857142857,
+        "is_valid": false
+      }
+    }
+  },
+  "final_state": {
+    "V001": {
+      "position": [
+        3,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V002": {
+      "position": [
+        10,
+        8
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V003": {
+      "position": [
+        6,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V004": {
+      "position": [
+        7,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V005": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V006": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V007": {
+      "position": [
+        2,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V008": {
+      "position": [
+        17,
+        9
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V009": {
+      "position": [
+        13,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V010": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V011": {
+      "position": [
+        11,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V012": {
+      "position": [
+        8,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V013": {
+      "position": [
+        6,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V014": {
+      "position": [
+        3,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V015": {
+      "position": [
+        9,
+        6
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V016": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V017": {
+      "position": [
+        4,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V018": {
+      "position": [
+        2,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V019": {
+      "position": [
+        2,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V020": {
+      "position": [
+        9,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V021": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V022": {
+      "position": [
+        13,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V023": {
+      "position": [
+        12,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V024": {
+      "position": [
+        0,
+        8
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V025": {
+      "position": [
+        0,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V026": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V027": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V028": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V029": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V030": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V031": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V032": {
+      "position": [
+        0,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V033": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V034": {
+      "position": [
+        3,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V035": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V036": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V037": {
+      "position": [
+        5,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V038": {
+      "position": [
+        0,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V039": {
+      "position": [
+        5,
+        8
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V040": {
+      "position": [
+        7,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V041": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V042": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V043": {
+      "position": [
+        14,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V044": {
+      "position": [
+        12,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V045": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V046": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V047": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V048": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V049": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V050": {
+      "position": [
+        8,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V051": {
+      "position": [
+        5,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V053": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V054": {
+      "position": [
+        14,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V055": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V056": {
+      "position": [
+        11,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V057": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V058": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V059": {
+      "position": [
+        3,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V060": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V061": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V062": {
+      "position": [
+        7,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V063": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V064": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V065": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V066": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V067": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V068": {
+      "position": [
+        11,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V069": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V070": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V071": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V072": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V073": {
+      "position": [
+        17,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V075": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V076": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V078": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V079": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V080": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V081": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V082": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V083": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V085": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V086": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V087": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V088": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V089": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V090": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    }
+  },
+  "final_metrics": {
+    "revenue": 1979,
+    "objective_value": 3401.3571428572,
+    "total_weight": 845,
+    "loaded_count": 38,
+    "overlap": 0,
+    "excess_weight": 0,
+    "score": 3401.3571428572,
+    "objective": "eta_priority",
+    "penalty_coefficient": 383.1428571428571,
+    "is_valid": true,
+    "per_ship": {
+      "S1": {
+        "grid": [
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "revenue": 1120,
+        "objective_value": 1958.6428571429,
+        "total_weight": 496,
+        "loaded_count": 20,
+        "max_capacity": 500,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1958.6428571429,
+        "is_valid": true
+      },
+      "S2": {
+        "grid": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ]
+        ],
+        "revenue": 859,
+        "objective_value": 1442.7142857143,
+        "total_weight": 349,
+        "loaded_count": 18,
+        "max_capacity": 350,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1442.7142857143,
+        "is_valid": true
+      }
+    }
+  },
+  "terminal_state": {
+    "V001": {
+      "position": [
+        3,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V002": {
+      "position": [
+        10,
+        8
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V003": {
+      "position": [
+        6,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V004": {
+      "position": [
+        7,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V005": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V006": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V007": {
+      "position": [
+        2,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V008": {
+      "position": [
+        17,
+        9
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V009": {
+      "position": [
+        13,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V010": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V011": {
+      "position": [
+        11,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V012": {
+      "position": [
+        8,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V013": {
+      "position": [
+        6,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V014": {
+      "position": [
+        3,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V015": {
+      "position": [
+        9,
+        6
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V016": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V017": {
+      "position": [
+        4,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V018": {
+      "position": [
+        2,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V019": {
+      "position": [
+        2,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V020": {
+      "position": [
+        9,
+        3
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V021": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V022": {
+      "position": [
+        13,
+        7
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V023": {
+      "position": [
+        12,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V024": {
+      "position": [
+        0,
+        8
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V025": {
+      "position": [
+        0,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V026": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V027": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V028": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V029": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V030": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V031": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V032": {
+      "position": [
+        0,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V033": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V034": {
+      "position": [
+        3,
+        1
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V035": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V036": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V037": {
+      "position": [
+        5,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V038": {
+      "position": [
+        0,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V039": {
+      "position": [
+        5,
+        8
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V040": {
+      "position": [
+        7,
+        1
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V041": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V042": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V043": {
+      "position": [
+        14,
+        3
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V044": {
+      "position": [
+        12,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V045": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V046": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V047": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V048": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V049": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V050": {
+      "position": [
+        8,
+        4
+      ],
+      "orientation": "V",
+      "ship_id": "S2"
+    },
+    "V051": {
+      "position": [
+        5,
+        4
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V053": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V054": {
+      "position": [
+        14,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S1"
+    },
+    "V055": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V056": {
+      "position": [
+        11,
+        5
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V057": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V058": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V059": {
+      "position": [
+        3,
+        6
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V060": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V061": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V062": {
+      "position": [
+        7,
+        0
+      ],
+      "orientation": "H",
+      "ship_id": "S2"
+    },
+    "V063": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V064": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V065": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V066": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V067": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V068": {
+      "position": [
+        11,
+        0
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V069": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V070": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V071": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V072": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V073": {
+      "position": [
+        17,
+        2
+      ],
+      "orientation": "V",
+      "ship_id": "S1"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V075": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V076": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V078": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V079": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V080": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V081": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V082": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V083": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V085": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V086": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V087": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    },
+    "V088": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V089": {
+      "position": null,
+      "orientation": "H",
+      "ship_id": null
+    },
+    "V090": {
+      "position": null,
+      "orientation": "V",
+      "ship_id": null
+    }
+  },
+  "terminal_metrics": {
+    "revenue": 1979,
+    "objective_value": 3401.3571428572,
+    "total_weight": 845,
+    "loaded_count": 38,
+    "overlap": 0,
+    "excess_weight": 0,
+    "score": 3401.3571428572,
+    "objective": "eta_priority",
+    "penalty_coefficient": 383.1428571428571,
+    "is_valid": true,
+    "per_ship": {
+      "S1": {
+        "grid": [
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "revenue": 1120,
+        "objective_value": 1958.6428571429,
+        "total_weight": 496,
+        "loaded_count": 20,
+        "max_capacity": 500,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1958.6428571429,
+        "is_valid": true
+      },
+      "S2": {
+        "grid": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ]
+        ],
+        "revenue": 859,
+        "objective_value": 1442.7142857143,
+        "total_weight": 349,
+        "loaded_count": 18,
+        "max_capacity": 350,
+        "overlap": 0,
+        "excess_weight": 0,
+        "score": 1442.7142857143,
+        "is_valid": true
+      }
+    }
+  },
+  "final_source": "terminal",
+  "history": [
+    {
+      "iteration": 0,
+      "score": -450856.9999999999,
+      "revenue": 3557,
+      "objective_value": 5466.1428571429,
+      "overlap": 318,
+      "excess_weight": 873,
+      "is_valid": false
+    },
+    {
+      "iteration": 1,
+      "score": -409177.4285714285,
+      "revenue": 3474,
+      "objective_value": 5383.1428571429,
+      "overlap": 300,
+      "excess_weight": 782,
+      "is_valid": false
+    },
+    {
+      "iteration": 2,
+      "score": -368348.2857142857,
+      "revenue": 3384,
+      "objective_value": 5216.0,
+      "overlap": 288,
+      "excess_weight": 687,
+      "is_valid": false
+    },
+    {
+      "iteration": 3,
+      "score": -332552.0,
+      "revenue": 3266,
+      "objective_value": 4996.8571428571,
+      "overlap": 272,
+      "excess_weight": 609,
+      "is_valid": false
+    },
+    {
+      "iteration": 4,
+      "score": -297812.0,
+      "revenue": 3168,
+      "objective_value": 4870.8571428571,
+      "overlap": 263,
+      "excess_weight": 527,
+      "is_valid": false
+    },
+    {
+      "iteration": 5,
+      "score": -266530.2857142857,
+      "revenue": 3049,
+      "objective_value": 4734.8571428571,
+      "overlap": 248,
+      "excess_weight": 460,
+      "is_valid": false
+    },
+    {
+      "iteration": 6,
+      "score": -235268.0000000001,
+      "revenue": 2913,
+      "objective_value": 4579.4285714285,
+      "overlap": 230,
+      "excess_weight": 396,
+      "is_valid": false
+    },
+    {
+      "iteration": 7,
+      "score": -204441.9285714287,
+      "revenue": 2774,
+      "objective_value": 4370.9285714285,
+      "overlap": 212,
+      "excess_weight": 333,
+      "is_valid": false
+    },
+    {
+      "iteration": 8,
+      "score": -174651.0714285715,
+      "revenue": 2686,
+      "objective_value": 4276.6428571428,
+      "overlap": 197,
+      "excess_weight": 270,
+      "is_valid": false
+    },
+    {
+      "iteration": 9,
+      "score": -148979.5,
+      "revenue": 2472,
+      "objective_value": 3894.5,
+      "overlap": 174,
+      "excess_weight": 225,
+      "is_valid": false
+    },
+    {
+      "iteration": 10,
+      "score": -124523.9285714287,
+      "revenue": 2421,
+      "objective_value": 3828.9285714285,
+      "overlap": 166,
+      "excess_weight": 169,
+      "is_valid": false
+    },
+    {
+      "iteration": 11,
+      "score": -100949.0714285715,
+      "revenue": 2316,
+      "objective_value": 3648.9285714285,
+      "overlap": 153,
+      "excess_weight": 120,
+      "is_valid": false
+    },
+    {
+      "iteration": 12,
+      "score": -80437.8571428572,
+      "revenue": 2169,
+      "objective_value": 3470.4285714285,
+      "overlap": 134,
+      "excess_weight": 85,
+      "is_valid": false
+    },
+    {
+      "iteration": 13,
+      "score": -60746.4285714287,
+      "revenue": 2053,
+      "objective_value": 3238.4285714285,
+      "overlap": 115,
+      "excess_weight": 52,
+      "is_valid": false
+    },
+    {
+      "iteration": 14,
+      "score": -41704.7857142858,
+      "revenue": 1976,
+      "objective_value": 3122.9285714285,
+      "overlap": 106,
+      "excess_weight": 11,
+      "is_valid": false
+    },
+    {
+      "iteration": 15,
+      "score": -32262.2142857144,
+      "revenue": 1864,
+      "objective_value": 2986.9285714285,
+      "overlap": 92,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 16,
+      "score": -25365.6428571429,
+      "revenue": 1864,
+      "objective_value": 2986.9285714285,
+      "overlap": 74,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 17,
+      "score": -20286.5,
+      "revenue": 1692,
+      "objective_value": 2702.0714285714,
+      "overlap": 60,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 18,
+      "score": -15571.2142857143,
+      "revenue": 1549,
+      "objective_value": 2436.5,
+      "overlap": 47,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 19,
+      "score": -12122.9285714286,
+      "revenue": 1549,
+      "objective_value": 2436.5,
+      "overlap": 38,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 20,
+      "score": -9057.7857142857,
+      "revenue": 1549,
+      "objective_value": 2436.5,
+      "overlap": 30,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 21,
+      "score": -6474.0,
+      "revenue": 1494,
+      "objective_value": 2338.2857142857,
+      "overlap": 23,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 22,
+      "score": -4175.1428571429,
+      "revenue": 1494,
+      "objective_value": 2338.2857142857,
+      "overlap": 17,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 23,
+      "score": -2642.5714285714,
+      "revenue": 1494,
+      "objective_value": 2338.2857142857,
+      "overlap": 13,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 24,
+      "score": -1110.0,
+      "revenue": 1494,
+      "objective_value": 2338.2857142857,
+      "overlap": 9,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 25,
+      "score": 319.9999999999,
+      "revenue": 1418,
+      "objective_value": 2235.7142857142,
+      "overlap": 5,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 26,
+      "score": 1086.2857142856,
+      "revenue": 1418,
+      "objective_value": 2235.7142857142,
+      "overlap": 3,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 27,
+      "score": 1852.5714285714,
+      "revenue": 1418,
+      "objective_value": 2235.7142857143,
+      "overlap": 1,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 28,
+      "score": 2235.7142857143,
+      "revenue": 1418,
+      "objective_value": 2235.7142857143,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 29,
+      "score": 2393.7142857143,
+      "revenue": 1497,
+      "objective_value": 2393.7142857143,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 30,
+      "score": 2530.7142857143,
+      "revenue": 1563,
+      "objective_value": 2530.7142857143,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 31,
+      "score": 2662.0,
+      "revenue": 1587,
+      "objective_value": 2662.0,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 32,
+      "score": 2787.7142857143,
+      "revenue": 1675,
+      "objective_value": 2787.7142857143,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 33,
+      "score": 2902.1428571428,
+      "revenue": 1764,
+      "objective_value": 2902.1428571428,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 34,
+      "score": 2961.6428571428,
+      "revenue": 1792,
+      "objective_value": 2961.6428571428,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 35,
+      "score": 3011.6428571428,
+      "revenue": 1817,
+      "objective_value": 3011.6428571428,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 36,
+      "score": 3053.0714285714,
+      "revenue": 1846,
+      "objective_value": 3053.0714285714,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 37,
+      "score": 3087.0714285714,
+      "revenue": 1863,
+      "objective_value": 3087.0714285714,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 38,
+      "score": 3119.9285714286,
+      "revenue": 1886,
+      "objective_value": 3119.9285714286,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 39,
+      "score": 3152.7857142857,
+      "revenue": 1896,
+      "objective_value": 3152.7857142857,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 40,
+      "score": 3174.2142857143,
+      "revenue": 1878,
+      "objective_value": 3174.2142857143,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 41,
+      "score": 3250.0,
+      "revenue": 1904,
+      "objective_value": 3250.0,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 42,
+      "score": 3270.0,
+      "revenue": 1915,
+      "objective_value": 3270.0,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 43,
+      "score": 3288.8571428571,
+      "revenue": 1926,
+      "objective_value": 3288.8571428571,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 44,
+      "score": 3313.9285714286,
+      "revenue": 1939,
+      "objective_value": 3313.9285714286,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 45,
+      "score": 3326.5714285715,
+      "revenue": 1944,
+      "objective_value": 3326.5714285715,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 46,
+      "score": 3372.2857142857,
+      "revenue": 1976,
+      "objective_value": 3372.2857142857,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 47,
+      "score": 3396.2857142857,
+      "revenue": 1990,
+      "objective_value": 3396.2857142857,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 48,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 49,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 50,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 51,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 52,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 53,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 54,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 55,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 56,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 57,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 58,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 59,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 60,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 61,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 62,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 63,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 64,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 65,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 66,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 67,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 68,
+      "score": 3401.3571428572,
+      "revenue": 1979,
+      "objective_value": 3401.3571428572,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    }
+  ],
+  "iterations": 68,
+  "neighborhood_scans": 68,
+  "evaluated_neighbors": 1390117,
+  "improving_moves": 48,
+  "sideways_moves": 20,
+  "stop_reason": "sideways_limit",
+  "duration_seconds": 14.299552099953871,
+  "parameters": {
+    "max_iterations": null,
+    "max_sideways": 20,
+    "objective": "eta_priority",
+    "seed": 202
+  },
+  "experiment": {
+    "dataset": "data.json",
+    "dataset_sha256": "9a8f1e12744b47c4ffbd84cef0ab2a82bf4b18126f560f12d27f722691a571d5",
+    "initial_seed": 202,
+    "search_seed": 202,
+    "load_probability": 0.5,
+    "python_version": "3.12.5",
+    "objective": "eta_priority",
+    "ship_count": 2,
+    "fleet_dataset": "fleet.json",
+    "fleet_sha256": "b4248fc934864c06950e3aa73f47c723104f6bfa2b5c68d8a88f7135a1803be7"
+  },
+  "ships": [
+    {
+      "id": "S1",
+      "w": 10,
+      "l": 20,
+      "max_capacity": 500
+    },
+    {
+      "id": "S2",
+      "w": 8,
+      "l": 15,
+      "max_capacity": 350
+    }
+  ]
+}

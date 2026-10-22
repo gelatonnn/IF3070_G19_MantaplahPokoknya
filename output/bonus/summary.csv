@@ -1,0 +1,19 @@
+algorithm,seed,score,objective,objective_value,ship_count,revenue,is_valid,iterations,restarts,sideways_moves,stuck_count,accepted_worse_moves,duration_seconds,stop_reason,final_source,evaluated_neighbors,iterations_per_restart
+steepest,101,3248.0714285714,eta_priority,3248.0714285714,2,1961,True,48,0,0,0,0,9.632411899976432,local_optimum,terminal,1008764,[]
+steepest,202,3401.3571428572,eta_priority,3401.3571428572,2,1979,True,48,0,0,0,0,9.367581099970266,local_optimum,terminal,1002417,[]
+steepest,303,3290.2142857143,eta_priority,3290.2142857143,2,2090,True,41,0,0,0,0,8.162698599975556,local_optimum,terminal,869647,[]
+stochastic,101,3058.5,eta_priority,3058.5,2,1865,True,144,0,0,0,0,30.851070799981244,local_optimum,terminal,2989292,[]
+stochastic,202,3356.5714285715,eta_priority,3356.5714285715,2,2042,True,163,0,0,0,0,34.96449179999763,local_optimum,terminal,3387649,[]
+stochastic,303,3078.9285714286,eta_priority,3078.9285714286,2,1855,True,139,0,0,0,0,30.731791600002907,local_optimum,terminal,2893911,[]
+sideways,101,3305.5,eta_priority,3305.5,2,2012,True,69,0,20,0,0,14.608946199994534,sideways_limit,terminal,1422246,[]
+sideways,202,3401.3571428572,eta_priority,3401.3571428572,2,1979,True,68,0,20,0,0,14.299552099953871,sideways_limit,terminal,1390117,[]
+sideways,303,3362.2142857143,eta_priority,3362.2142857143,2,2082,True,63,0,20,0,0,12.812917800038122,sideways_limit,terminal,1301865,[]
+random_restart,101,3301.8571428571,eta_priority,3301.8571428571,2,1984,True,188,3,0,0,0,39.31529120000778,max_restarts,terminal,3960232,"[48, 48, 50, 42]"
+random_restart,202,3428.2857142857,eta_priority,3428.2857142857,2,2052,True,177,3,0,0,0,38.07297009998001,max_restarts,terminal,3719475,"[48, 48, 40, 41]"
+random_restart,303,3430.2142857143,eta_priority,3430.2142857143,2,2047,True,162,3,0,0,0,34.978682500019204,max_restarts,terminal,3444241,"[41, 41, 42, 38]"
+simulated_annealing,101,4015.7142857143,eta_priority,4015.7142857143,2,2339,True,69075,0,0,18,517,80.42703339998843,t_min,visited,69075,[]
+simulated_annealing,202,3946.2857142857,eta_priority,3946.2857142857,2,2368,True,69075,0,0,18,531,78.54748750000726,t_min,visited,69075,[]
+simulated_annealing,303,4040.7857142858,eta_priority,4040.7857142858,2,2319,True,69075,0,0,16,571,76.96882359997835,t_min,visited,69075,[]
+genetic_algorithm,101,3157.0714285715,eta_priority,3157.0714285715,2,1914,True,300,0,0,0,0,37.861625999968965,max_generations,population,30100,[]
+genetic_algorithm,202,3168.4285714286,eta_priority,3168.4285714286,2,1930,True,300,0,0,0,0,37.295519899984356,max_generations,population,30100,[]
+genetic_algorithm,303,3194.8571428571,eta_priority,3194.8571428571,2,1825,True,300,0,0,0,0,36.291077799978666,max_generations,population,30100,[]

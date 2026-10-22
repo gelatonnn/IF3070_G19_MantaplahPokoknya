@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from .fleet import ships_by_id
 
 
 def _integer(value, label, minimum=1):
@@ -12,12 +13,13 @@ def load_data(path):
         data = json.load(file)
     if not isinstance(data, dict):
         raise ValueError('Root JSON harus berupa object')
-    ship = data.get('ship')
+    if ("ship" in data) == ("ships" in data):
+        raise ValueError("Gunakan tepat satu dari ship atau ships")
+    ship = {"ships": data["ships"]} if "ships" in data else data["ship"]
     rows = data.get('vehicles')
     if not isinstance(ship, dict) or not isinstance(rows, list):
-        raise ValueError('Diperlukan object ship dan list vehicles')
-    for field in ('w', 'l', 'max_capacity'):
-        _integer(ship.get(field), f'ship.{field}')
+        raise ValueError('Diperlukan konfigurasi kapal dan list vehicles')
+    ships_by_id(ship)
     vehicles = {}
     for index, vehicle in enumerate(rows):
         if not isinstance(vehicle, dict):
@@ -31,3 +33,13 @@ def load_data(path):
             _integer(vehicle.get(field), f'{vid}.{field}', minimum=0)
         vehicles[vid] = dict(vehicle)
     return dict(ship), vehicles
+
+
+def load_fleet(path):
+    """Konfigurasi armada terpisah untuk memakai kembali master kendaraan."""
+    with Path(path).open(encoding="utf-8-sig") as file:
+        data = json.load(file)
+    if not isinstance(data, dict) or set(data) != {"ships"}:
+        raise ValueError("File armada terpisah hanya berisi key ships")
+    ships_by_id(data)
+    return data

@@ -1,7 +1,9 @@
+import math
 import random
 from time import perf_counter
 
 from ..Core.evaluation import evaluate
+from ..Core.objectives import normalize_objective
 from ..Core.state import copy_state, empty_state, random_state
 from ._neighborhood import Neighborhood
 
@@ -15,30 +17,31 @@ def _point(iteration, metrics):
     return {
         "iteration": iteration,
         **{name: metrics[name] for name in (
-            "score", "revenue", "overlap", "excess_weight", "is_valid",
+            "score", "revenue", "objective_value", "overlap", "excess_weight", "is_valid",
         )},
     }
 
 
 def _search(initial_state, vehicles, ship, *, mode, rng, max_iterations,
-            max_sideways=0, neighborhood=None):
+            max_sideways=0, neighborhood=None, objective="shipping_fee"):
+    objective = normalize_objective(objective)
     if max_iterations is not None:
         _nonnegative_int(max_iterations, "max_iterations")
     _nonnegative_int(max_sideways, "max_sideways")
     started = perf_counter()
     current = copy_state(initial_state)
-    initial_metrics = evaluate(current, vehicles, ship)
+    initial_metrics = evaluate(current, vehicles, ship, objective)
     metrics = initial_metrics
     
-    best_valid = empty_state(vehicles)
-    best_valid_metrics = evaluate(best_valid, vehicles, ship)
+    best_valid = empty_state(vehicles, ship)
+    best_valid_metrics = evaluate(best_valid, vehicles, ship, objective)
     best_valid_source = "empty_baseline"
     if metrics["is_valid"]:
         best_valid, best_valid_metrics = copy_state(current), metrics
         best_valid_source = "visited"
     history = [_point(0, metrics)]
     iterations = scans = evaluated = sideways = improvements = 0
-    space = neighborhood if neighborhood is not None else Neighborhood(vehicles, ship)
+    space = neighborhood if neighborhood is not None else Neighborhood(vehicles, ship, objective)
     while True:
         if max_iterations is not None and iterations >= max_iterations:
             reason = "max_iterations"
@@ -51,14 +54,14 @@ def _search(initial_state, vehicles, ship, *, mode, rng, max_iterations,
         for change in space.changes():
             evaluated += 1
             score = space.score(change)
-            if score > metrics["score"]:
+            if score > metrics["score"] and not math.isclose(score, metrics["score"], rel_tol=1e-12, abs_tol=1e-8):
                 if mode == "stochastic":
                     improving_count += 1
                     if rng.randrange(improving_count) == 0:
                         selected, selected_score = change, score
                 elif score > selected_score:
                     selected, selected_score = change, score
-            elif mode == "sideways" and score == metrics["score"]:
+            elif mode == "sideways" and math.isclose(score, metrics["score"], rel_tol=1e-12, abs_tol=1e-8):
                 lateral_count += 1
                 if rng.randrange(lateral_count) == 0:
                     lateral = change
@@ -74,8 +77,8 @@ def _search(initial_state, vehicles, ship, *, mode, rng, max_iterations,
         else:
             improvements += 1
         current = space.apply(selected)
-        metrics = evaluate(current, vehicles, ship)
-        if metrics["score"] != selected_score:
+        metrics = evaluate(current, vehicles, ship, objective)
+        if not math.isclose(metrics["score"], selected_score, rel_tol=1e-12, abs_tol=1e-8):
             raise RuntimeError("Score delta tidak sama dengan evaluator core")
         iterations += 1
         history.append(_point(iterations, metrics))
@@ -87,7 +90,7 @@ def _search(initial_state, vehicles, ship, *, mode, rng, max_iterations,
             break
 
     final = current if metrics["is_valid"] else best_valid
-    final_metrics = evaluate(final, vehicles, ship)
+    final_metrics = evaluate(final, vehicles, ship, objective)
     return {
         "algorithm": mode,
         "initial_state": copy_state(initial_state),
@@ -105,30 +108,31 @@ def _search(initial_state, vehicles, ship, *, mode, rng, max_iterations,
         "sideways_moves": sideways,
         "stop_reason": reason,
         "duration_seconds": perf_counter() - started,
-        "parameters": {"max_iterations": max_iterations, "max_sideways": max_sideways},
+        "parameters": {"max_iterations": max_iterations, "max_sideways": max_sideways,
+                       "objective": objective},
     }
 
 
 def steepest_ascent_hill_climbing(initial_state, vehicles, ship, *,
-                                  seed=0, max_iterations=None):
+                                  seed=0, max_iterations=None, objective="shipping_fee"):
     """Tetangga terbaik; tie terbaik mengikuti urutan enumerasi core."""
     result = _search(initial_state, vehicles, ship, mode="steepest",
-                     rng=random.Random(seed), max_iterations=max_iterations)
+                     rng=random.Random(seed), max_iterations=max_iterations, objective=objective)
     result["parameters"]["seed"] = seed
     return result
 
 
 def stochastic_hill_climbing(initial_state, vehicles, ship, *,
-                            seed=0, max_iterations=None):
+                            seed=0, max_iterations=None, objective="shipping_fee"):
     """Pilih uniform di antara tetangga dengan score lebih tinggi."""
     result = _search(initial_state, vehicles, ship, mode="stochastic",
-                     rng=random.Random(seed), max_iterations=max_iterations)
+                     rng=random.Random(seed), max_iterations=max_iterations, objective=objective)
     result["parameters"]["seed"] = seed
     return result
 
 
 def hill_climbing_sideways(initial_state, vehicles, ship, *, seed=0,
-                          max_iterations=None, max_sideways=20):
+                          max_iterations=None, max_sideways=20, objective="shipping_fee"):
     """Steepest + langkah setara; berhenti saat batas TOTAL sideways tercapai.
 
     max_sideways=0 berarti tidak menerima sideways, tetapi perbaikan boleh.
@@ -136,15 +140,16 @@ def hill_climbing_sideways(initial_state, vehicles, ship, *, seed=0,
     """
     result = _search(initial_state, vehicles, ship, mode="sideways",
                      rng=random.Random(seed), max_iterations=max_iterations,
-                     max_sideways=max_sideways)
+                     max_sideways=max_sideways, objective=objective)
     result["parameters"]["seed"] = seed
     return result
 
 
 def random_restart_hill_climbing(initial_state, vehicles, ship, *, seed=0,
                                  max_restarts=3, max_iterations=None,
-                                 load_probability=0.5):
+                                 load_probability=0.5, objective="shipping_fee"):
     """Satu pencarian awal + max_restarts pencarian steepest dari state acak."""
+    objective = normalize_objective(objective)
     _nonnegative_int(max_restarts, "max_restarts")
     if max_iterations is not None:
         _nonnegative_int(max_iterations, "max_iterations")
@@ -152,14 +157,14 @@ def random_restart_hill_climbing(initial_state, vehicles, ship, *, seed=0,
         raise ValueError("load_probability harus antara 0 dan 1")
     started = perf_counter()
     rng = random.Random(seed)
-    evaluate(initial_state, vehicles, ship)
-    space = Neighborhood(vehicles, ship)
+    evaluate(initial_state, vehicles, ship, objective)
+    space = Neighborhood(vehicles, ship, objective)
     runs = []
     for index in range(max_restarts + 1):
         initial = (initial_state if index == 0 else
                    random_state(vehicles, ship, rng, load_probability))
         run = _search(initial, vehicles, ship, mode="steepest", rng=rng,
-                      max_iterations=max_iterations, neighborhood=space)
+                      max_iterations=max_iterations, neighborhood=space, objective=objective)
         run["restart_index"] = index
         runs.append(run)
     best_index = max(range(len(runs)), key=lambda i: runs[i]["final_metrics"]["score"])
@@ -183,5 +188,5 @@ def random_restart_hill_climbing(initial_state, vehicles, ship, *, seed=0,
         "duration_seconds": perf_counter() - started,
         "parameters": {"seed": seed, "max_restarts": max_restarts,
                        "max_iterations": max_iterations,
-                       "load_probability": load_probability},
+                       "load_probability": load_probability, "objective": objective},
     }

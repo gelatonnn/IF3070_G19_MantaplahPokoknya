@@ -7,7 +7,7 @@ from .hill_climbing import (
     stochastic_hill_climbing,
 )
 from .simulated_annealing import simulated_annealing
-from .genetic_algorithm import run_ga
+
 
 __all__ = [
     "steepest_ascent_hill_climbing",
@@ -17,3 +17,12 @@ __all__ = [
     "simulated_annealing",
     "run_ga",
 ]
+
+
+def __getattr__(name):
+    # Lazy import supaya python -m src.Algorithm.genetic_algorithm tidak
+    # memuat modul GA dua kali melalui package initializer.
+    if name == "run_ga":
+        from .genetic_algorithm import run_ga
+        return run_ga
+    raise AttributeError(name)
