@@ -1,0 +1,3712 @@
+{
+  "algorithm": "stochastic",
+  "initial_state": {
+    "V001": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V002": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V003": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V004": {
+      "position": [
+        14,
+        0
+      ],
+      "orientation": "H"
+    },
+    "V005": {
+      "position": [
+        15,
+        8
+      ],
+      "orientation": "V"
+    },
+    "V006": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V007": {
+      "position": [
+        13,
+        7
+      ],
+      "orientation": "V"
+    },
+    "V008": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V009": {
+      "position": [
+        15,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V010": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V011": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V012": {
+      "position": [
+        8,
+        0
+      ],
+      "orientation": "H"
+    },
+    "V013": {
+      "position": [
+        6,
+        1
+      ],
+      "orientation": "H"
+    },
+    "V014": {
+      "position": [
+        7,
+        3
+      ],
+      "orientation": "V"
+    },
+    "V015": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V016": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V017": {
+      "position": [
+        9,
+        5
+      ],
+      "orientation": "V"
+    },
+    "V018": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V019": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V020": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V021": {
+      "position": [
+        18,
+        5
+      ],
+      "orientation": "V"
+    },
+    "V022": {
+      "position": [
+        7,
+        5
+      ],
+      "orientation": "V"
+    },
+    "V023": {
+      "position": [
+        6,
+        5
+      ],
+      "orientation": "V"
+    },
+    "V024": {
+      "position": [
+        16,
+        6
+      ],
+      "orientation": "H"
+    },
+    "V025": {
+      "position": [
+        5,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V026": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V027": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V028": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V029": {
+      "position": [
+        1,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V030": {
+      "position": [
+        14,
+        7
+      ],
+      "orientation": "H"
+    },
+    "V031": {
+      "position": [
+        3,
+        3
+      ],
+      "orientation": "H"
+    },
+    "V032": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V033": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V034": {
+      "position": [
+        0,
+        5
+      ],
+      "orientation": "H"
+    },
+    "V035": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V036": {
+      "position": [
+        14,
+        0
+      ],
+      "orientation": "H"
+    },
+    "V037": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V038": {
+      "position": [
+        7,
+        6
+      ],
+      "orientation": "V"
+    },
+    "V039": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V040": {
+      "position": [
+        14,
+        7
+      ],
+      "orientation": "H"
+    },
+    "V041": {
+      "position": [
+        6,
+        0
+      ],
+      "orientation": "H"
+    },
+    "V042": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H"
+    },
+    "V043": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V044": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V045": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V046": {
+      "position": [
+        6,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V047": {
+      "position": [
+        17,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V048": {
+      "position": [
+        7,
+        4
+      ],
+      "orientation": "H"
+    },
+    "V049": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V050": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V051": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V053": {
+      "position": [
+        18,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V054": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V055": {
+      "position": [
+        7,
+        5
+      ],
+      "orientation": "V"
+    },
+    "V056": {
+      "position": [
+        11,
+        4
+      ],
+      "orientation": "H"
+    },
+    "V057": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V058": {
+      "position": [
+        14,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V059": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V060": {
+      "position": [
+        4,
+        1
+      ],
+      "orientation": "V"
+    },
+    "V061": {
+      "position": [
+        1,
+        2
+      ],
+      "orientation": "V"
+    },
+    "V062": {
+      "position": [
+        2,
+        3
+      ],
+      "orientation": "V"
+    },
+    "V063": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V064": {
+      "position": [
+        4,
+        2
+      ],
+      "orientation": "V"
+    },
+    "V065": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V066": {
+      "position": [
+        6,
+        2
+      ],
+      "orientation": "V"
+    },
+    "V067": {
+      "position": [
+        11,
+        7
+      ],
+      "orientation": "H"
+    },
+    "V068": {
+      "position": [
+        0,
+        7
+      ],
+      "orientation": "H"
+    },
+    "V069": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V070": {
+      "position": [
+        6,
+        1
+      ],
+      "orientation": "H"
+    },
+    "V071": {
+      "position": [
+        3,
+        5
+      ],
+      "orientation": "H"
+    },
+    "V072": {
+      "position": [
+        14,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V073": {
+      "position": [
+        12,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V075": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H"
+    },
+    "V076": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V078": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V079": {
+      "position": [
+        4,
+        7
+      ],
+      "orientation": "H"
+    },
+    "V080": {
+      "position": [
+        1,
+        1
+      ],
+      "orientation": "H"
+    },
+    "V081": {
+      "position": [
+        1,
+        2
+      ],
+      "orientation": "V"
+    },
+    "V082": {
+      "position": [
+        9,
+        1
+      ],
+      "orientation": "V"
+    },
+    "V083": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V085": {
+      "position": [
+        5,
+        4
+      ],
+      "orientation": "H"
+    },
+    "V086": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V087": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V088": {
+      "position": [
+        10,
+        5
+      ],
+      "orientation": "H"
+    },
+    "V089": {
+      "position": [
+        4,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V090": {
+      "position": [
+        13,
+        1
+      ],
+      "orientation": "H"
+    }
+  },
+  "initial_metrics": {
+    "revenue": 3734,
+    "total_weight": 1800,
+    "overlap": 408,
+    "excess_weight": 1300,
+    "penalty_coefficient": 215,
+    "score": -363486,
+    "is_valid": false,
+    "loaded_count": 49,
+    "grid": [
+      [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        3,
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        3,
+        3,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        1,
+        3,
+        3,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        1,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        4,
+        3,
+        5,
+        4,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        3,
+        4,
+        5,
+        7,
+        5,
+        7,
+        5,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        6,
+        6,
+        6,
+        5,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        5,
+        5,
+        2,
+        2,
+        3,
+        3
+      ],
+      [
+        1,
+        5,
+        6,
+        7,
+        8,
+        7,
+        8,
+        9,
+        6,
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        2,
+        1,
+        3,
+        3
+      ],
+      [
+        1,
+        5,
+        6,
+        7,
+        7,
+        6,
+        8,
+        9,
+        7,
+        4,
+        4,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        4,
+        3
+      ],
+      [
+        1,
+        4,
+        5,
+        6,
+        7,
+        4,
+        5,
+        7,
+        6,
+        4,
+        3,
+        4,
+        4,
+        4,
+        6,
+        5,
+        5,
+        3,
+        4,
+        3
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        3,
+        1,
+        1,
+        3,
+        3,
+        1,
+        1,
+        2,
+        3,
+        4,
+        6,
+        6,
+        4,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        3,
+        3,
+        1,
+        0,
+        1,
+        2,
+        2,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "final_state": {
+    "V001": {
+      "position": [
+        13,
+        7
+      ],
+      "orientation": "V"
+    },
+    "V002": {
+      "position": [
+        3,
+        6
+      ],
+      "orientation": "V"
+    },
+    "V003": {
+      "position": [
+        11,
+        3
+      ],
+      "orientation": "H"
+    },
+    "V004": {
+      "position": [
+        2,
+        4
+      ],
+      "orientation": "H"
+    },
+    "V005": {
+      "position": [
+        0,
+        6
+      ],
+      "orientation": "V"
+    },
+    "V006": {
+      "position": [
+        6,
+        1
+      ],
+      "orientation": "H"
+    },
+    "V007": {
+      "position": [
+        13,
+        5
+      ],
+      "orientation": "V"
+    },
+    "V008": {
+      "position": [
+        4,
+        4
+      ],
+      "orientation": "H"
+    },
+    "V009": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V010": {
+      "position": [
+        13,
+        3
+      ],
+      "orientation": "H"
+    },
+    "V011": {
+      "position": [
+        11,
+        1
+      ],
+      "orientation": "H"
+    },
+    "V012": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H"
+    },
+    "V013": {
+      "position": [
+        17,
+        7
+      ],
+      "orientation": "H"
+    },
+    "V014": {
+      "position": [
+        9,
+        2
+      ],
+      "orientation": "V"
+    },
+    "V015": {
+      "position": [
+        9,
+        6
+      ],
+      "orientation": "V"
+    },
+    "V016": {
+      "position": [
+        5,
+        7
+      ],
+      "orientation": "V"
+    },
+    "V017": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V018": {
+      "position": [
+        4,
+        7
+      ],
+      "orientation": "V"
+    },
+    "V019": {
+      "position": [
+        0,
+        3
+      ],
+      "orientation": "H"
+    },
+    "V020": {
+      "position": [
+        12,
+        2
+      ],
+      "orientation": "H"
+    },
+    "V021": {
+      "position": [
+        6,
+        7
+      ],
+      "orientation": "V"
+    },
+    "V022": {
+      "position": [
+        16,
+        3
+      ],
+      "orientation": "V"
+    },
+    "V023": {
+      "position": [
+        16,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V024": {
+      "position": [
+        8,
+        0
+      ],
+      "orientation": "H"
+    },
+    "V025": {
+      "position": [
+        18,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V026": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V027": {
+      "position": [
+        14,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V028": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V029": {
+      "position": [
+        0,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V030": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V031": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V032": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V033": {
+      "position": [
+        0,
+        8
+      ],
+      "orientation": "H"
+    },
+    "V034": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V035": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V036": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V037": {
+      "position": [
+        18,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V038": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V039": {
+      "position": [
+        4,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V040": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V041": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V042": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V043": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V044": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V045": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V046": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V047": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V048": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V049": {
+      "position": [
+        6,
+        2
+      ],
+      "orientation": "V"
+    },
+    "V050": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V051": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V053": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V054": {
+      "position": [
+        15,
+        8
+      ],
+      "orientation": "H"
+    },
+    "V055": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V056": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V057": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V058": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V059": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V060": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V061": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V062": {
+      "position": [
+        10,
+        5
+      ],
+      "orientation": "V"
+    },
+    "V063": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V064": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V065": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V066": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V067": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V068": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V069": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V070": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V071": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V072": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V073": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V075": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V076": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V078": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V079": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V080": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V081": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V082": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V083": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V085": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V086": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V087": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V088": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V089": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V090": {
+      "position": null,
+      "orientation": "H"
+    }
+  },
+  "final_metrics": {
+    "revenue": 1211,
+    "total_weight": 500,
+    "overlap": 0,
+    "excess_weight": 0,
+    "penalty_coefficient": 215,
+    "score": 1211,
+    "is_valid": true,
+    "loaded_count": 32,
+    "grid": [
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "terminal_state": {
+    "V001": {
+      "position": [
+        13,
+        7
+      ],
+      "orientation": "V"
+    },
+    "V002": {
+      "position": [
+        3,
+        6
+      ],
+      "orientation": "V"
+    },
+    "V003": {
+      "position": [
+        11,
+        3
+      ],
+      "orientation": "H"
+    },
+    "V004": {
+      "position": [
+        2,
+        4
+      ],
+      "orientation": "H"
+    },
+    "V005": {
+      "position": [
+        0,
+        6
+      ],
+      "orientation": "V"
+    },
+    "V006": {
+      "position": [
+        6,
+        1
+      ],
+      "orientation": "H"
+    },
+    "V007": {
+      "position": [
+        13,
+        5
+      ],
+      "orientation": "V"
+    },
+    "V008": {
+      "position": [
+        4,
+        4
+      ],
+      "orientation": "H"
+    },
+    "V009": {
+      "position": [
+        3,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V010": {
+      "position": [
+        13,
+        3
+      ],
+      "orientation": "H"
+    },
+    "V011": {
+      "position": [
+        11,
+        1
+      ],
+      "orientation": "H"
+    },
+    "V012": {
+      "position": [
+        1,
+        5
+      ],
+      "orientation": "H"
+    },
+    "V013": {
+      "position": [
+        17,
+        7
+      ],
+      "orientation": "H"
+    },
+    "V014": {
+      "position": [
+        9,
+        2
+      ],
+      "orientation": "V"
+    },
+    "V015": {
+      "position": [
+        9,
+        6
+      ],
+      "orientation": "V"
+    },
+    "V016": {
+      "position": [
+        5,
+        7
+      ],
+      "orientation": "V"
+    },
+    "V017": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V018": {
+      "position": [
+        4,
+        7
+      ],
+      "orientation": "V"
+    },
+    "V019": {
+      "position": [
+        0,
+        3
+      ],
+      "orientation": "H"
+    },
+    "V020": {
+      "position": [
+        12,
+        2
+      ],
+      "orientation": "H"
+    },
+    "V021": {
+      "position": [
+        6,
+        7
+      ],
+      "orientation": "V"
+    },
+    "V022": {
+      "position": [
+        16,
+        3
+      ],
+      "orientation": "V"
+    },
+    "V023": {
+      "position": [
+        16,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V024": {
+      "position": [
+        8,
+        0
+      ],
+      "orientation": "H"
+    },
+    "V025": {
+      "position": [
+        18,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V026": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V027": {
+      "position": [
+        14,
+        4
+      ],
+      "orientation": "V"
+    },
+    "V028": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V029": {
+      "position": [
+        0,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V030": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V031": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V032": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V033": {
+      "position": [
+        0,
+        8
+      ],
+      "orientation": "H"
+    },
+    "V034": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V035": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V036": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V037": {
+      "position": [
+        18,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V038": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V039": {
+      "position": [
+        4,
+        0
+      ],
+      "orientation": "V"
+    },
+    "V040": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V041": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V042": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V043": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V044": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V045": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V046": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V047": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V048": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V049": {
+      "position": [
+        6,
+        2
+      ],
+      "orientation": "V"
+    },
+    "V050": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V051": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V052": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V053": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V054": {
+      "position": [
+        15,
+        8
+      ],
+      "orientation": "H"
+    },
+    "V055": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V056": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V057": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V058": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V059": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V060": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V061": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V062": {
+      "position": [
+        10,
+        5
+      ],
+      "orientation": "V"
+    },
+    "V063": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V064": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V065": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V066": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V067": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V068": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V069": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V070": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V071": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V072": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V073": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V074": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V075": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V076": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V077": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V078": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V079": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V080": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V081": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V082": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V083": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V084": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V085": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V086": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V087": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V088": {
+      "position": null,
+      "orientation": "H"
+    },
+    "V089": {
+      "position": null,
+      "orientation": "V"
+    },
+    "V090": {
+      "position": null,
+      "orientation": "H"
+    }
+  },
+  "terminal_metrics": {
+    "revenue": 1211,
+    "total_weight": 500,
+    "overlap": 0,
+    "excess_weight": 0,
+    "penalty_coefficient": 215,
+    "score": 1211,
+    "is_valid": true,
+    "loaded_count": 32,
+    "grid": [
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "final_source": "terminal",
+  "history": [
+    {
+      "iteration": 0,
+      "score": -363486,
+      "revenue": 3734,
+      "overlap": 408,
+      "excess_weight": 1300,
+      "is_valid": false
+    },
+    {
+      "iteration": 1,
+      "score": -356049,
+      "revenue": 3646,
+      "overlap": 388,
+      "excess_weight": 1285,
+      "is_valid": false
+    },
+    {
+      "iteration": 2,
+      "score": -346848,
+      "revenue": 3602,
+      "overlap": 382,
+      "excess_weight": 1248,
+      "is_valid": false
+    },
+    {
+      "iteration": 3,
+      "score": -339002,
+      "revenue": 3493,
+      "overlap": 362,
+      "excess_weight": 1231,
+      "is_valid": false
+    },
+    {
+      "iteration": 4,
+      "score": -338787,
+      "revenue": 3493,
+      "overlap": 361,
+      "excess_weight": 1231,
+      "is_valid": false
+    },
+    {
+      "iteration": 5,
+      "score": -337927,
+      "revenue": 3493,
+      "overlap": 357,
+      "excess_weight": 1231,
+      "is_valid": false
+    },
+    {
+      "iteration": 6,
+      "score": -337712,
+      "revenue": 3493,
+      "overlap": 356,
+      "excess_weight": 1231,
+      "is_valid": false
+    },
+    {
+      "iteration": 7,
+      "score": -334691,
+      "revenue": 3504,
+      "overlap": 358,
+      "excess_weight": 1215,
+      "is_valid": false
+    },
+    {
+      "iteration": 8,
+      "score": -334476,
+      "revenue": 3504,
+      "overlap": 357,
+      "excess_weight": 1215,
+      "is_valid": false
+    },
+    {
+      "iteration": 9,
+      "score": -333163,
+      "revenue": 3527,
+      "overlap": 359,
+      "excess_weight": 1207,
+      "is_valid": false
+    },
+    {
+      "iteration": 10,
+      "score": -332518,
+      "revenue": 3527,
+      "overlap": 356,
+      "excess_weight": 1207,
+      "is_valid": false
+    },
+    {
+      "iteration": 11,
+      "score": -332088,
+      "revenue": 3527,
+      "overlap": 354,
+      "excess_weight": 1207,
+      "is_valid": false
+    },
+    {
+      "iteration": 12,
+      "score": -325918,
+      "revenue": 3462,
+      "overlap": 346,
+      "excess_weight": 1186,
+      "is_valid": false
+    },
+    {
+      "iteration": 13,
+      "score": -322964,
+      "revenue": 3406,
+      "overlap": 341,
+      "excess_weight": 1177,
+      "is_valid": false
+    },
+    {
+      "iteration": 14,
+      "score": -322749,
+      "revenue": 3406,
+      "overlap": 340,
+      "excess_weight": 1177,
+      "is_valid": false
+    },
+    {
+      "iteration": 15,
+      "score": -321445,
+      "revenue": 3420,
+      "overlap": 341,
+      "excess_weight": 1170,
+      "is_valid": false
+    },
+    {
+      "iteration": 16,
+      "score": -314170,
+      "revenue": 3385,
+      "overlap": 335,
+      "excess_weight": 1142,
+      "is_valid": false
+    },
+    {
+      "iteration": 17,
+      "score": -309263,
+      "revenue": 3347,
+      "overlap": 325,
+      "excess_weight": 1129,
+      "is_valid": false
+    },
+    {
+      "iteration": 18,
+      "score": -297519,
+      "revenue": 3266,
+      "overlap": 315,
+      "excess_weight": 1084,
+      "is_valid": false
+    },
+    {
+      "iteration": 19,
+      "score": -297304,
+      "revenue": 3266,
+      "overlap": 314,
+      "excess_weight": 1084,
+      "is_valid": false
+    },
+    {
+      "iteration": 20,
+      "score": -297004,
+      "revenue": 3351,
+      "overlap": 322,
+      "excess_weight": 1075,
+      "is_valid": false
+    },
+    {
+      "iteration": 21,
+      "score": -296789,
+      "revenue": 3351,
+      "overlap": 321,
+      "excess_weight": 1075,
+      "is_valid": false
+    },
+    {
+      "iteration": 22,
+      "score": -281640,
+      "revenue": 3235,
+      "overlap": 305,
+      "excess_weight": 1020,
+      "is_valid": false
+    },
+    {
+      "iteration": 23,
+      "score": -278218,
+      "revenue": 3217,
+      "overlap": 306,
+      "excess_weight": 1003,
+      "is_valid": false
+    },
+    {
+      "iteration": 24,
+      "score": -278003,
+      "revenue": 3217,
+      "overlap": 305,
+      "excess_weight": 1003,
+      "is_valid": false
+    },
+    {
+      "iteration": 25,
+      "score": -277788,
+      "revenue": 3217,
+      "overlap": 304,
+      "excess_weight": 1003,
+      "is_valid": false
+    },
+    {
+      "iteration": 26,
+      "score": -266234,
+      "revenue": 3161,
+      "overlap": 300,
+      "excess_weight": 953,
+      "is_valid": false
+    },
+    {
+      "iteration": 27,
+      "score": -249404,
+      "revenue": 3006,
+      "overlap": 286,
+      "excess_weight": 888,
+      "is_valid": false
+    },
+    {
+      "iteration": 28,
+      "score": -247072,
+      "revenue": 2973,
+      "overlap": 282,
+      "excess_weight": 881,
+      "is_valid": false
+    },
+    {
+      "iteration": 29,
+      "score": -246857,
+      "revenue": 2973,
+      "overlap": 281,
+      "excess_weight": 881,
+      "is_valid": false
+    },
+    {
+      "iteration": 30,
+      "score": -246659,
+      "revenue": 2956,
+      "overlap": 278,
+      "excess_weight": 883,
+      "is_valid": false
+    },
+    {
+      "iteration": 31,
+      "score": -243195,
+      "revenue": 2980,
+      "overlap": 291,
+      "excess_weight": 854,
+      "is_valid": false
+    },
+    {
+      "iteration": 32,
+      "score": -242980,
+      "revenue": 2980,
+      "overlap": 290,
+      "excess_weight": 854,
+      "is_valid": false
+    },
+    {
+      "iteration": 33,
+      "score": -233825,
+      "revenue": 2890,
+      "overlap": 269,
+      "excess_weight": 832,
+      "is_valid": false
+    },
+    {
+      "iteration": 34,
+      "score": -233610,
+      "revenue": 2890,
+      "overlap": 268,
+      "excess_weight": 832,
+      "is_valid": false
+    },
+    {
+      "iteration": 35,
+      "score": -230654,
+      "revenue": 2836,
+      "overlap": 266,
+      "excess_weight": 820,
+      "is_valid": false
+    },
+    {
+      "iteration": 36,
+      "score": -228516,
+      "revenue": 2824,
+      "overlap": 264,
+      "excess_weight": 812,
+      "is_valid": false
+    },
+    {
+      "iteration": 37,
+      "score": -228086,
+      "revenue": 2824,
+      "overlap": 262,
+      "excess_weight": 812,
+      "is_valid": false
+    },
+    {
+      "iteration": 38,
+      "score": -225179,
+      "revenue": 2721,
+      "overlap": 253,
+      "excess_weight": 807,
+      "is_valid": false
+    },
+    {
+      "iteration": 39,
+      "score": -224964,
+      "revenue": 2721,
+      "overlap": 252,
+      "excess_weight": 807,
+      "is_valid": false
+    },
+    {
+      "iteration": 40,
+      "score": -224319,
+      "revenue": 2721,
+      "overlap": 249,
+      "excess_weight": 807,
+      "is_valid": false
+    },
+    {
+      "iteration": 41,
+      "score": -217694,
+      "revenue": 2681,
+      "overlap": 243,
+      "excess_weight": 782,
+      "is_valid": false
+    },
+    {
+      "iteration": 42,
+      "score": -208894,
+      "revenue": 2666,
+      "overlap": 240,
+      "excess_weight": 744,
+      "is_valid": false
+    },
+    {
+      "iteration": 43,
+      "score": -208679,
+      "revenue": 2666,
+      "overlap": 239,
+      "excess_weight": 744,
+      "is_valid": false
+    },
+    {
+      "iteration": 44,
+      "score": -204413,
+      "revenue": 2632,
+      "overlap": 235,
+      "excess_weight": 728,
+      "is_valid": false
+    },
+    {
+      "iteration": 45,
+      "score": -202711,
+      "revenue": 2614,
+      "overlap": 234,
+      "excess_weight": 721,
+      "is_valid": false
+    },
+    {
+      "iteration": 46,
+      "score": -200775,
+      "revenue": 2615,
+      "overlap": 218,
+      "excess_weight": 728,
+      "is_valid": false
+    },
+    {
+      "iteration": 47,
+      "score": -200560,
+      "revenue": 2615,
+      "overlap": 217,
+      "excess_weight": 728,
+      "is_valid": false
+    },
+    {
+      "iteration": 48,
+      "score": -196437,
+      "revenue": 2653,
+      "overlap": 216,
+      "excess_weight": 710,
+      "is_valid": false
+    },
+    {
+      "iteration": 49,
+      "score": -190901,
+      "revenue": 2599,
+      "overlap": 213,
+      "excess_weight": 687,
+      "is_valid": false
+    },
+    {
+      "iteration": 50,
+      "score": -190686,
+      "revenue": 2599,
+      "overlap": 212,
+      "excess_weight": 687,
+      "is_valid": false
+    },
+    {
+      "iteration": 51,
+      "score": -190471,
+      "revenue": 2599,
+      "overlap": 211,
+      "excess_weight": 687,
+      "is_valid": false
+    },
+    {
+      "iteration": 52,
+      "score": -190256,
+      "revenue": 2599,
+      "overlap": 210,
+      "excess_weight": 687,
+      "is_valid": false
+    },
+    {
+      "iteration": 53,
+      "score": -190041,
+      "revenue": 2599,
+      "overlap": 209,
+      "excess_weight": 687,
+      "is_valid": false
+    },
+    {
+      "iteration": 54,
+      "score": -189826,
+      "revenue": 2599,
+      "overlap": 208,
+      "excess_weight": 687,
+      "is_valid": false
+    },
+    {
+      "iteration": 55,
+      "score": -189611,
+      "revenue": 2599,
+      "overlap": 207,
+      "excess_weight": 687,
+      "is_valid": false
+    },
+    {
+      "iteration": 56,
+      "score": -188370,
+      "revenue": 2550,
+      "overlap": 200,
+      "excess_weight": 688,
+      "is_valid": false
+    },
+    {
+      "iteration": 57,
+      "score": -179210,
+      "revenue": 2465,
+      "overlap": 195,
+      "excess_weight": 650,
+      "is_valid": false
+    },
+    {
+      "iteration": 58,
+      "score": -178565,
+      "revenue": 2465,
+      "overlap": 192,
+      "excess_weight": 650,
+      "is_valid": false
+    },
+    {
+      "iteration": 59,
+      "score": -172429,
+      "revenue": 2366,
+      "overlap": 184,
+      "excess_weight": 629,
+      "is_valid": false
+    },
+    {
+      "iteration": 60,
+      "score": -172214,
+      "revenue": 2366,
+      "overlap": 183,
+      "excess_weight": 629,
+      "is_valid": false
+    },
+    {
+      "iteration": 61,
+      "score": -168088,
+      "revenue": 2407,
+      "overlap": 185,
+      "excess_weight": 608,
+      "is_valid": false
+    },
+    {
+      "iteration": 62,
+      "score": -167873,
+      "revenue": 2407,
+      "overlap": 184,
+      "excess_weight": 608,
+      "is_valid": false
+    },
+    {
+      "iteration": 63,
+      "score": -167658,
+      "revenue": 2407,
+      "overlap": 183,
+      "excess_weight": 608,
+      "is_valid": false
+    },
+    {
+      "iteration": 64,
+      "score": -167228,
+      "revenue": 2407,
+      "overlap": 181,
+      "excess_weight": 608,
+      "is_valid": false
+    },
+    {
+      "iteration": 65,
+      "score": -165083,
+      "revenue": 2402,
+      "overlap": 181,
+      "excess_weight": 598,
+      "is_valid": false
+    },
+    {
+      "iteration": 66,
+      "score": -163091,
+      "revenue": 2459,
+      "overlap": 181,
+      "excess_weight": 589,
+      "is_valid": false
+    },
+    {
+      "iteration": 67,
+      "score": -160116,
+      "revenue": 2424,
+      "overlap": 178,
+      "excess_weight": 578,
+      "is_valid": false
+    },
+    {
+      "iteration": 68,
+      "score": -152608,
+      "revenue": 2407,
+      "overlap": 172,
+      "excess_weight": 549,
+      "is_valid": false
+    },
+    {
+      "iteration": 69,
+      "score": -150913,
+      "revenue": 2382,
+      "overlap": 167,
+      "excess_weight": 546,
+      "is_valid": false
+    },
+    {
+      "iteration": 70,
+      "score": -150698,
+      "revenue": 2382,
+      "overlap": 166,
+      "excess_weight": 546,
+      "is_valid": false
+    },
+    {
+      "iteration": 71,
+      "score": -150483,
+      "revenue": 2382,
+      "overlap": 165,
+      "excess_weight": 546,
+      "is_valid": false
+    },
+    {
+      "iteration": 72,
+      "score": -146702,
+      "revenue": 2293,
+      "overlap": 149,
+      "excess_weight": 544,
+      "is_valid": false
+    },
+    {
+      "iteration": 73,
+      "score": -146487,
+      "revenue": 2293,
+      "overlap": 148,
+      "excess_weight": 544,
+      "is_valid": false
+    },
+    {
+      "iteration": 74,
+      "score": -143187,
+      "revenue": 2153,
+      "overlap": 134,
+      "excess_weight": 542,
+      "is_valid": false
+    },
+    {
+      "iteration": 75,
+      "score": -139986,
+      "revenue": 2129,
+      "overlap": 137,
+      "excess_weight": 524,
+      "is_valid": false
+    },
+    {
+      "iteration": 76,
+      "score": -139771,
+      "revenue": 2129,
+      "overlap": 136,
+      "excess_weight": 524,
+      "is_valid": false
+    },
+    {
+      "iteration": 77,
+      "score": -139135,
+      "revenue": 2120,
+      "overlap": 142,
+      "excess_weight": 515,
+      "is_valid": false
+    },
+    {
+      "iteration": 78,
+      "score": -138920,
+      "revenue": 2120,
+      "overlap": 141,
+      "excess_weight": 515,
+      "is_valid": false
+    },
+    {
+      "iteration": 79,
+      "score": -138490,
+      "revenue": 2120,
+      "overlap": 139,
+      "excess_weight": 515,
+      "is_valid": false
+    },
+    {
+      "iteration": 80,
+      "score": -138060,
+      "revenue": 2120,
+      "overlap": 137,
+      "excess_weight": 515,
+      "is_valid": false
+    },
+    {
+      "iteration": 81,
+      "score": -137630,
+      "revenue": 2120,
+      "overlap": 135,
+      "excess_weight": 515,
+      "is_valid": false
+    },
+    {
+      "iteration": 82,
+      "score": -137200,
+      "revenue": 2120,
+      "overlap": 133,
+      "excess_weight": 515,
+      "is_valid": false
+    },
+    {
+      "iteration": 83,
+      "score": -136985,
+      "revenue": 2120,
+      "overlap": 132,
+      "excess_weight": 515,
+      "is_valid": false
+    },
+    {
+      "iteration": 84,
+      "score": -131831,
+      "revenue": 2114,
+      "overlap": 131,
+      "excess_weight": 492,
+      "is_valid": false
+    },
+    {
+      "iteration": 85,
+      "score": -124561,
+      "revenue": 2074,
+      "overlap": 130,
+      "excess_weight": 459,
+      "is_valid": false
+    },
+    {
+      "iteration": 86,
+      "score": -120296,
+      "revenue": 2039,
+      "overlap": 122,
+      "excess_weight": 447,
+      "is_valid": false
+    },
+    {
+      "iteration": 87,
+      "score": -119651,
+      "revenue": 2039,
+      "overlap": 119,
+      "excess_weight": 447,
+      "is_valid": false
+    },
+    {
+      "iteration": 88,
+      "score": -115860,
+      "revenue": 1960,
+      "overlap": 99,
+      "excess_weight": 449,
+      "is_valid": false
+    },
+    {
+      "iteration": 89,
+      "score": -113496,
+      "revenue": 1959,
+      "overlap": 99,
+      "excess_weight": 438,
+      "is_valid": false
+    },
+    {
+      "iteration": 90,
+      "score": -112467,
+      "revenue": 1913,
+      "overlap": 95,
+      "excess_weight": 437,
+      "is_valid": false
+    },
+    {
+      "iteration": 91,
+      "score": -112252,
+      "revenue": 1913,
+      "overlap": 94,
+      "excess_weight": 437,
+      "is_valid": false
+    },
+    {
+      "iteration": 92,
+      "score": -111822,
+      "revenue": 1913,
+      "overlap": 92,
+      "excess_weight": 437,
+      "is_valid": false
+    },
+    {
+      "iteration": 93,
+      "score": -111786,
+      "revenue": 1949,
+      "overlap": 94,
+      "excess_weight": 435,
+      "is_valid": false
+    },
+    {
+      "iteration": 94,
+      "score": -111571,
+      "revenue": 1949,
+      "overlap": 93,
+      "excess_weight": 435,
+      "is_valid": false
+    },
+    {
+      "iteration": 95,
+      "score": -110047,
+      "revenue": 1968,
+      "overlap": 93,
+      "excess_weight": 428,
+      "is_valid": false
+    },
+    {
+      "iteration": 96,
+      "score": -106175,
+      "revenue": 1970,
+      "overlap": 91,
+      "excess_weight": 412,
+      "is_valid": false
+    },
+    {
+      "iteration": 97,
+      "score": -104951,
+      "revenue": 1904,
+      "overlap": 88,
+      "excess_weight": 409,
+      "is_valid": false
+    },
+    {
+      "iteration": 98,
+      "score": -104551,
+      "revenue": 1874,
+      "overlap": 86,
+      "excess_weight": 409,
+      "is_valid": false
+    },
+    {
+      "iteration": 99,
+      "score": -102863,
+      "revenue": 1842,
+      "overlap": 84,
+      "excess_weight": 403,
+      "is_valid": false
+    },
+    {
+      "iteration": 100,
+      "score": -102648,
+      "revenue": 1842,
+      "overlap": 83,
+      "excess_weight": 403,
+      "is_valid": false
+    },
+    {
+      "iteration": 101,
+      "score": -102433,
+      "revenue": 1842,
+      "overlap": 82,
+      "excess_weight": 403,
+      "is_valid": false
+    },
+    {
+      "iteration": 102,
+      "score": -102218,
+      "revenue": 1842,
+      "overlap": 81,
+      "excess_weight": 403,
+      "is_valid": false
+    },
+    {
+      "iteration": 103,
+      "score": -102003,
+      "revenue": 1842,
+      "overlap": 80,
+      "excess_weight": 403,
+      "is_valid": false
+    },
+    {
+      "iteration": 104,
+      "score": -101788,
+      "revenue": 1842,
+      "overlap": 79,
+      "excess_weight": 403,
+      "is_valid": false
+    },
+    {
+      "iteration": 105,
+      "score": -94073,
+      "revenue": 1817,
+      "overlap": 75,
+      "excess_weight": 371,
+      "is_valid": false
+    },
+    {
+      "iteration": 106,
+      "score": -93408,
+      "revenue": 1837,
+      "overlap": 75,
+      "excess_weight": 368,
+      "is_valid": false
+    },
+    {
+      "iteration": 107,
+      "score": -93193,
+      "revenue": 1837,
+      "overlap": 74,
+      "excess_weight": 368,
+      "is_valid": false
+    },
+    {
+      "iteration": 108,
+      "score": -89334,
+      "revenue": 1826,
+      "overlap": 75,
+      "excess_weight": 349,
+      "is_valid": false
+    },
+    {
+      "iteration": 109,
+      "score": -87399,
+      "revenue": 1826,
+      "overlap": 75,
+      "excess_weight": 340,
+      "is_valid": false
+    },
+    {
+      "iteration": 110,
+      "score": -81640,
+      "revenue": 1780,
+      "overlap": 72,
+      "excess_weight": 316,
+      "is_valid": false
+    },
+    {
+      "iteration": 111,
+      "score": -78271,
+      "revenue": 1709,
+      "overlap": 72,
+      "excess_weight": 300,
+      "is_valid": false
+    },
+    {
+      "iteration": 112,
+      "score": -76798,
+      "revenue": 1677,
+      "overlap": 71,
+      "excess_weight": 294,
+      "is_valid": false
+    },
+    {
+      "iteration": 113,
+      "score": -75508,
+      "revenue": 1677,
+      "overlap": 65,
+      "excess_weight": 294,
+      "is_valid": false
+    },
+    {
+      "iteration": 114,
+      "score": -75293,
+      "revenue": 1677,
+      "overlap": 64,
+      "excess_weight": 294,
+      "is_valid": false
+    },
+    {
+      "iteration": 115,
+      "score": -73619,
+      "revenue": 1631,
+      "overlap": 63,
+      "excess_weight": 287,
+      "is_valid": false
+    },
+    {
+      "iteration": 116,
+      "score": -73404,
+      "revenue": 1631,
+      "overlap": 62,
+      "excess_weight": 287,
+      "is_valid": false
+    },
+    {
+      "iteration": 117,
+      "score": -72093,
+      "revenue": 1652,
+      "overlap": 63,
+      "excess_weight": 280,
+      "is_valid": false
+    },
+    {
+      "iteration": 118,
+      "score": -71878,
+      "revenue": 1652,
+      "overlap": 62,
+      "excess_weight": 280,
+      "is_valid": false
+    },
+    {
+      "iteration": 119,
+      "score": -71663,
+      "revenue": 1652,
+      "overlap": 61,
+      "excess_weight": 280,
+      "is_valid": false
+    },
+    {
+      "iteration": 120,
+      "score": -71018,
+      "revenue": 1652,
+      "overlap": 58,
+      "excess_weight": 280,
+      "is_valid": false
+    },
+    {
+      "iteration": 121,
+      "score": -68222,
+      "revenue": 1653,
+      "overlap": 57,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 122,
+      "score": -67792,
+      "revenue": 1653,
+      "overlap": 55,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 123,
+      "score": -67362,
+      "revenue": 1653,
+      "overlap": 53,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 124,
+      "score": -67147,
+      "revenue": 1653,
+      "overlap": 52,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 125,
+      "score": -66932,
+      "revenue": 1653,
+      "overlap": 51,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 126,
+      "score": -66717,
+      "revenue": 1653,
+      "overlap": 50,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 127,
+      "score": -66502,
+      "revenue": 1653,
+      "overlap": 49,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 128,
+      "score": -66287,
+      "revenue": 1653,
+      "overlap": 48,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 129,
+      "score": -66072,
+      "revenue": 1653,
+      "overlap": 47,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 130,
+      "score": -65857,
+      "revenue": 1653,
+      "overlap": 46,
+      "excess_weight": 268,
+      "is_valid": false
+    },
+    {
+      "iteration": 131,
+      "score": -64149,
+      "revenue": 1641,
+      "overlap": 46,
+      "excess_weight": 260,
+      "is_valid": false
+    },
+    {
+      "iteration": 132,
+      "score": -57533,
+      "revenue": 1592,
+      "overlap": 41,
+      "excess_weight": 234,
+      "is_valid": false
+    },
+    {
+      "iteration": 133,
+      "score": -57318,
+      "revenue": 1592,
+      "overlap": 40,
+      "excess_weight": 234,
+      "is_valid": false
+    },
+    {
+      "iteration": 134,
+      "score": -57103,
+      "revenue": 1592,
+      "overlap": 39,
+      "excess_weight": 234,
+      "is_valid": false
+    },
+    {
+      "iteration": 135,
+      "score": -56458,
+      "revenue": 1592,
+      "overlap": 36,
+      "excess_weight": 234,
+      "is_valid": false
+    },
+    {
+      "iteration": 136,
+      "score": -52191,
+      "revenue": 1559,
+      "overlap": 33,
+      "excess_weight": 217,
+      "is_valid": false
+    },
+    {
+      "iteration": 137,
+      "score": -51976,
+      "revenue": 1559,
+      "overlap": 32,
+      "excess_weight": 217,
+      "is_valid": false
+    },
+    {
+      "iteration": 138,
+      "score": -51761,
+      "revenue": 1559,
+      "overlap": 31,
+      "excess_weight": 217,
+      "is_valid": false
+    },
+    {
+      "iteration": 139,
+      "score": -51546,
+      "revenue": 1559,
+      "overlap": 30,
+      "excess_weight": 217,
+      "is_valid": false
+    },
+    {
+      "iteration": 140,
+      "score": -44725,
+      "revenue": 1500,
+      "overlap": 28,
+      "excess_weight": 187,
+      "is_valid": false
+    },
+    {
+      "iteration": 141,
+      "score": -43680,
+      "revenue": 1470,
+      "overlap": 26,
+      "excess_weight": 184,
+      "is_valid": false
+    },
+    {
+      "iteration": 142,
+      "score": -43465,
+      "revenue": 1470,
+      "overlap": 25,
+      "excess_weight": 184,
+      "is_valid": false
+    },
+    {
+      "iteration": 143,
+      "score": -40889,
+      "revenue": 1466,
+      "overlap": 26,
+      "excess_weight": 171,
+      "is_valid": false
+    },
+    {
+      "iteration": 144,
+      "score": -32356,
+      "revenue": 1399,
+      "overlap": 25,
+      "excess_weight": 132,
+      "is_valid": false
+    },
+    {
+      "iteration": 145,
+      "score": -32141,
+      "revenue": 1399,
+      "overlap": 24,
+      "excess_weight": 132,
+      "is_valid": false
+    },
+    {
+      "iteration": 146,
+      "score": -31926,
+      "revenue": 1399,
+      "overlap": 23,
+      "excess_weight": 132,
+      "is_valid": false
+    },
+    {
+      "iteration": 147,
+      "score": -29590,
+      "revenue": 1370,
+      "overlap": 23,
+      "excess_weight": 121,
+      "is_valid": false
+    },
+    {
+      "iteration": 148,
+      "score": -29414,
+      "revenue": 1331,
+      "overlap": 26,
+      "excess_weight": 117,
+      "is_valid": false
+    },
+    {
+      "iteration": 149,
+      "score": -28984,
+      "revenue": 1331,
+      "overlap": 24,
+      "excess_weight": 117,
+      "is_valid": false
+    },
+    {
+      "iteration": 150,
+      "score": -23022,
+      "revenue": 1273,
+      "overlap": 23,
+      "excess_weight": 90,
+      "is_valid": false
+    },
+    {
+      "iteration": 151,
+      "score": -22807,
+      "revenue": 1273,
+      "overlap": 22,
+      "excess_weight": 90,
+      "is_valid": false
+    },
+    {
+      "iteration": 152,
+      "score": -22592,
+      "revenue": 1273,
+      "overlap": 21,
+      "excess_weight": 90,
+      "is_valid": false
+    },
+    {
+      "iteration": 153,
+      "score": -22377,
+      "revenue": 1273,
+      "overlap": 20,
+      "excess_weight": 90,
+      "is_valid": false
+    },
+    {
+      "iteration": 154,
+      "score": -21324,
+      "revenue": 1251,
+      "overlap": 20,
+      "excess_weight": 85,
+      "is_valid": false
+    },
+    {
+      "iteration": 155,
+      "score": -21109,
+      "revenue": 1251,
+      "overlap": 19,
+      "excess_weight": 85,
+      "is_valid": false
+    },
+    {
+      "iteration": 156,
+      "score": -16446,
+      "revenue": 1184,
+      "overlap": 17,
+      "excess_weight": 65,
+      "is_valid": false
+    },
+    {
+      "iteration": 157,
+      "score": -16231,
+      "revenue": 1184,
+      "overlap": 16,
+      "excess_weight": 65,
+      "is_valid": false
+    },
+    {
+      "iteration": 158,
+      "score": -16016,
+      "revenue": 1184,
+      "overlap": 15,
+      "excess_weight": 65,
+      "is_valid": false
+    },
+    {
+      "iteration": 159,
+      "score": -13391,
+      "revenue": 1229,
+      "overlap": 15,
+      "excess_weight": 53,
+      "is_valid": false
+    },
+    {
+      "iteration": 160,
+      "score": -13176,
+      "revenue": 1229,
+      "overlap": 14,
+      "excess_weight": 53,
+      "is_valid": false
+    },
+    {
+      "iteration": 161,
+      "score": -10203,
+      "revenue": 1192,
+      "overlap": 14,
+      "excess_weight": 39,
+      "is_valid": false
+    },
+    {
+      "iteration": 162,
+      "score": -8719,
+      "revenue": 1171,
+      "overlap": 14,
+      "excess_weight": 32,
+      "is_valid": false
+    },
+    {
+      "iteration": 163,
+      "score": -8534,
+      "revenue": 1141,
+      "overlap": 13,
+      "excess_weight": 32,
+      "is_valid": false
+    },
+    {
+      "iteration": 164,
+      "score": -8104,
+      "revenue": 1141,
+      "overlap": 11,
+      "excess_weight": 32,
+      "is_valid": false
+    },
+    {
+      "iteration": 165,
+      "score": -7670,
+      "revenue": 1145,
+      "overlap": 11,
+      "excess_weight": 30,
+      "is_valid": false
+    },
+    {
+      "iteration": 166,
+      "score": -5973,
+      "revenue": 1122,
+      "overlap": 11,
+      "excess_weight": 22,
+      "is_valid": false
+    },
+    {
+      "iteration": 167,
+      "score": -2983,
+      "revenue": 1102,
+      "overlap": 9,
+      "excess_weight": 10,
+      "is_valid": false
+    },
+    {
+      "iteration": 168,
+      "score": -2784,
+      "revenue": 1086,
+      "overlap": 9,
+      "excess_weight": 9,
+      "is_valid": false
+    },
+    {
+      "iteration": 169,
+      "score": -1916,
+      "revenue": 1094,
+      "overlap": 9,
+      "excess_weight": 5,
+      "is_valid": false
+    },
+    {
+      "iteration": 170,
+      "score": -1273,
+      "revenue": 1092,
+      "overlap": 11,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 171,
+      "score": -843,
+      "revenue": 1092,
+      "overlap": 9,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 172,
+      "score": -628,
+      "revenue": 1092,
+      "overlap": 8,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 173,
+      "score": -445,
+      "revenue": 1060,
+      "overlap": 7,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 174,
+      "score": -230,
+      "revenue": 1060,
+      "overlap": 6,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 175,
+      "score": -15,
+      "revenue": 1060,
+      "overlap": 5,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 176,
+      "score": 377,
+      "revenue": 1022,
+      "overlap": 3,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 177,
+      "score": 592,
+      "revenue": 1022,
+      "overlap": 2,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 178,
+      "score": 741,
+      "revenue": 956,
+      "overlap": 1,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 179,
+      "score": 746,
+      "revenue": 961,
+      "overlap": 1,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 180,
+      "score": 786,
+      "revenue": 1001,
+      "overlap": 1,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 181,
+      "score": 789,
+      "revenue": 1004,
+      "overlap": 1,
+      "excess_weight": 0,
+      "is_valid": false
+    },
+    {
+      "iteration": 182,
+      "score": 994,
+      "revenue": 994,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 183,
+      "score": 1033,
+      "revenue": 1033,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 184,
+      "score": 1042,
+      "revenue": 1042,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 185,
+      "score": 1085,
+      "revenue": 1085,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 186,
+      "score": 1103,
+      "revenue": 1103,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 187,
+      "score": 1123,
+      "revenue": 1123,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 188,
+      "score": 1137,
+      "revenue": 1137,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 189,
+      "score": 1156,
+      "revenue": 1156,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 190,
+      "score": 1157,
+      "revenue": 1157,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 191,
+      "score": 1176,
+      "revenue": 1176,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 192,
+      "score": 1200,
+      "revenue": 1200,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 193,
+      "score": 1201,
+      "revenue": 1201,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    },
+    {
+      "iteration": 194,
+      "score": 1211,
+      "revenue": 1211,
+      "overlap": 0,
+      "excess_weight": 0,
+      "is_valid": true
+    }
+  ],
+  "iterations": 194,
+  "neighborhood_scans": 195,
+  "evaluated_neighbors": 2802532,
+  "improving_moves": 194,
+  "sideways_moves": 0,
+  "stop_reason": "local_optimum",
+  "duration_seconds": 20.953834899992216,
+  "parameters": {
+    "max_iterations": null,
+    "max_sideways": 0,
+    "seed": 202
+  },
+  "experiment": {
+    "dataset": "data.json",
+    "dataset_sha256": "9a8f1e12744b47c4ffbd84cef0ab2a82bf4b18126f560f12d27f722691a571d5",
+    "initial_seed": 202,
+    "search_seed": 202,
+    "load_probability": 0.5,
+    "python_version": "3.12.5"
+  },
+  "ship": {
+    "w": 10,
+    "l": 20,
+    "max_capacity": 500
+  }
+}

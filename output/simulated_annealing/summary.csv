@@ -1,0 +1,4 @@
+algorithm,seed,score,revenue,is_valid,iterations,restarts,sideways_moves,stuck_count,accepted_worse_moves,duration_seconds,stop_reason,final_source,evaluated_neighbors
+simulated_annealing,101,1418,1418,True,69075,0,0,9,654,20.81660937500419,t_min,visited,69075
+simulated_annealing,202,1398,1398,True,69075,0,0,11,697,20.11696725001093,t_min,visited,69075
+simulated_annealing,303,1458,1458,True,69075,0,0,14,688,20.19329366699094,t_min,visited,69075

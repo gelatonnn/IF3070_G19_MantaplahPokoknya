@@ -1,0 +1,2 @@
+# Algoritma dan tes menggunakan standard library. Paket ini untuk ekspor PNG.
+matplotlib==3.10.8
