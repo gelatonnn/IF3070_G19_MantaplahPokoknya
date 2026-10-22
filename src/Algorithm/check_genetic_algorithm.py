@@ -12,7 +12,7 @@ from src.Core.data_loader import load_data
 from src.Core.evaluation import evaluate 
 from src.Core.state import random_state, validate_state, empty_state  
 from src.Algorithm import genetic_algorithm as ga  
-from src.Visualization import export_result as ex  
+from src.Visualization import genetic_algorithm_vis as ex  
 
 SHIP, VEHICLES = load_data(ROOT / 'data' / 'mini_data.json')
 

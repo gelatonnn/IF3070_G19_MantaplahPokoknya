@@ -21,8 +21,8 @@ DEFAULT_PARAMS = {
     'mutation_rate': 0.5,
     'tournament_size': 3,
     'elite_count': 2,
-    'seed': 42,
-    'repair': False,
+    'seed': 0,
+    'repair': True,
 }
 
 
@@ -269,8 +269,8 @@ def build_parser():
     parser.add_argument('--tournament-size', type=int, default=d['tournament_size'])
     parser.add_argument('--elite-count', type=int, default=d['elite_count'])
     parser.add_argument('--seed', type=int, default=d['seed'])
-    parser.add_argument('--repair', action='store_true',
-                        help='aktifkan operator repair untuk memperbaiki overlap dan kelebihan muatan')
+    parser.add_argument('--repair', action=argparse.BooleanOptionalAction, default=d['repair'],
+                        help='aktifkan/nonaktifkan operator repair untuk memperbaiki overlap dan kelebihan muatan')
     parser.add_argument('--output-directory', default=str(ROOT / 'output' / 'genetic_algorithm'),
                         help='folder hasil CSV riwayat dan gambar PNG')
     return parser
@@ -290,7 +290,7 @@ def main(argv=None):
         print(f'Parameter tidak valid: {error}', file=sys.stderr)
         return 2
 
-    from src.Visualization.export_result import export_result
+    from src.Visualization.genetic_algorithm_vis import export_result
     paths = export_result(result, args.output_directory, data_path.stem)
 
     bv, bf = result['best_valid_metrics'], result['best_fitness_metrics']
